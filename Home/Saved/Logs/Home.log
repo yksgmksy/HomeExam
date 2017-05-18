@@ -1,9 +1,9 @@
-﻿Log file open, 05/18/17 10:47:30
+﻿Log file open, 05/18/17 17:31:32
 LogInit:Display: Running engine for game: Home
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(217809135) SRandInit(217809135).
+LogInit:Display: RandInit(-1684427184) SRandInit(-1684427184).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.066832
+LogStats: Stats thread started at 0.066482
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -43,576 +43,884 @@ LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.05.18-01.47.32:478][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.18-01.47.32:478][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.05.18-01.47.32:514][  0]LogInit: Computer: YANG-PC
-[2017.05.18-01.47.32:514][  0]LogInit: User: yang
-[2017.05.18-01.47.32:514][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.05.18-01.47.32:514][  0]LogInit: High frequency timer resolution =3.507519 MHz
-[2017.05.18-01.47.32:514][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2017.05.18-01.47.32:514][  0]LogMemory: Platform Memory Stats for Windows
-[2017.05.18-01.47.32:514][  0]LogMemory: Process Physical Memory: 265.07 MB used, 265.07 MB peak
-[2017.05.18-01.47.32:514][  0]LogMemory: Process Virtual Memory: 265.01 MB used, 265.01 MB peak
-[2017.05.18-01.47.32:515][  0]LogMemory: Physical Memory: 3170.38 MB used,  860.24 MB free, 4030.62 MB total
-[2017.05.18-01.47.32:515][  0]LogMemory: Virtual Memory: 632.43 MB used,  860.24 MB free, 8388608.00 MB total
-[2017.05.18-01.47.32:661][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
-[2017.05.18-01.47.32:722][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+[2017.05.18-08.31.33:893][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-08.31.33:893][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-08.31.34:026][  0]LogInit: Computer: YANG-PC
+[2017.05.18-08.31.34:026][  0]LogInit: User: yang
+[2017.05.18-08.31.34:026][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-08.31.34:026][  0]LogInit: High frequency timer resolution =3.507548 MHz
+[2017.05.18-08.31.34:026][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2017.05.18-08.31.34:026][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-08.31.34:026][  0]LogMemory: Process Physical Memory: 265.05 MB used, 265.05 MB peak
+[2017.05.18-08.31.34:026][  0]LogMemory: Process Virtual Memory: 265.02 MB used, 265.02 MB peak
+[2017.05.18-08.31.34:026][  0]LogMemory: Physical Memory: 3036.66 MB used,  993.96 MB free, 4030.62 MB total
+[2017.05.18-08.31.34:026][  0]LogMemory: Virtual Memory: 632.43 MB used,  993.96 MB free, 8388608.00 MB total
+[2017.05.18-08.31.34:083][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
  )
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
 이 노드를 무시합니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
  )
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
 기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
 디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+[2017.05.18-08.31.34:124][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
 루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
 반복하면 1회전 후 0.f 부터 시작됩니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
 반복하면, 1회전 후 0.f 부터 시작됩니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
 루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
-[2017.05.18-01.47.32:723][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+[2017.05.18-08.31.34:125][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
-[2017.05.18-01.47.33:157][  0]LogD3D11RHI: D3D11 adapters:
-[2017.05.18-01.47.33:185][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
-[2017.05.18-01.47.33:185][  0]LogD3D11RHI:       972/0/1759 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.05.18-01.47.33:185][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.05.18-01.47.33:191][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.05.18-01.47.33:191][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
-[2017.05.18-01.47.33:191][  0]LogWindows: EnumDisplayDevices:
-[2017.05.18-01.47.33:191][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
-[2017.05.18-01.47.33:191][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:0)
-[2017.05.18-01.47.33:191][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
-[2017.05.18-01.47.33:192][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
-[2017.05.18-01.47.33:192][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.05.18-01.47.33:192][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.05.18-01.47.33:192][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.05.18-01.47.33:192][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.05.18-01.47.33:192][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
-[2017.05.18-01.47.33:192][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
-[2017.05.18-01.47.33:192][  0]LogD3D11RHI:      Driver Date: 12-11-2016
-[2017.05.18-01.47.33:192][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
-[2017.05.18-01.47.33:208][  0]LogD3D11RHI: Async texture creation enabled
-[2017.05.18-01.47.33:227][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.05.18-01.47.33:279][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Users/yang/HomeExam/Home/Intermediate/Shaders/WorkingDirectory/5480/).
-[2017.05.18-01.47.33:279][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yang/AppData/Local/Temp/UnrealShaderWorkingDir/13266CA24A9DEDBBE396088D68CAD887/'.
-[2017.05.18-01.47.33:279][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.05.18-01.47.35:183][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.05.18-01.47.35:259][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.05.18-01.47.35:357][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.05.18-01.47.35:442][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.05.18-01.47.35:536][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.05.18-01.47.35:634][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.05.18-01.47.35:714][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.05.18-01.47.35:802][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.05.18-01.47.35:878][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.05.18-01.47.35:956][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.05.18-01.47.36:027][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.05.18-01.47.36:133][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.05.18-01.47.36:232][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.05.18-01.47.36:328][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.05.18-01.47.36:438][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.05.18-01.47.36:608][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.05.18-01.47.36:608][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.05.18-01.47.36:662][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.05.18-01.47.36:785][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.05.18-01.47.36:825][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.05.18-01.47.36:880][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.05.18-01.47.36:951][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.05.18-01.47.37:015][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.05.18-01.47.37:064][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.05.18-01.47.37:064][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.05.18-01.47.37:532][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.05.18-01.47.37:658][  0]LogDerivedDataCache: Loaded boot cache 0.13s 50MB C:/Users/yang/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.18-01.47.37:658][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/yang/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.05.18-01.47.37:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/yang/HomeExam/Home/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.05.18-01.47.37:658][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.05.18-01.47.37:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/yang/HomeExam/Home/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.05.18-01.47.37:658][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.05.18-01.47.37:691][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.05.18-01.47.37:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.05.18-01.47.37:723][  0]LogSlate: Using Freetype 2.6.0
-[2017.05.18-01.47.37:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.18-01.47.37:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.05.18-01.47.38:063][  0]LogInit: Selected Device Profile: [Windows]
-[2017.05.18-01.47.38:067][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.05.18-01.47.38:271][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.05.18-01.47.38:309][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.05.18-01.47.38:343][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.05.18-01.47.38:343][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.05.18-01.47.38:343][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.05.18-01.47.38:770][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: home, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1691153015
-[2017.05.18-01.47.38:804][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
-[2017.05.18-01.47.38:843][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025591 seconds
-[2017.05.18-01.47.38:848][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.05.18-01.47.38:848][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.05.18-01.47.38:848][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.05.18-01.47.38:883][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.05.18-01.47.39:948][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.05.18-01.47.39:990][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.05.18-01.47.40:302][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.05.18-01.47.40:548][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-01.47.40:549][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-01.47.40:577][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-01.47.40:604][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-01.47.41:314][  0]LogEngine: Initializing Engine...
-[2017.05.18-01.47.41:314][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.05.18-01.47.41:481][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.05.18-01.47.41:488][  0]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.18-01.47.41:493][  0]LogInit: FAudioDevice initialized.
-[2017.05.18-01.47.41:522][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/yang/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.05.18-01.47.41:527][  0]LogInit: Texture streaming: Enabled
-[2017.05.18-01.47.41:580][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.05.18-01.47.41:630][  0]LogInit: Transaction tracking system initialized
-[2017.05.18-01.47.41:828][  0]BlueprintLog: New page: 에디터 로드
-[2017.05.18-01.47.42:499][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
-[2017.05.18-01.47.42:903][  0]LogConsoleResponse:Display: 
-[2017.05.18-01.47.42:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Content/' took 0.01s
-[2017.05.18-01.47.42:998][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.05.18-01.47.42:998][  0]LogCook:Display: Mobile HDR setting 1
-[2017.05.18-01.47.43:612][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.05.18-01.47.43:894][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.15/FeaturePacks/StarterContent.upack)
-[2017.05.18-01.47.45:267][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.05.18-01.47.45:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.05.18-01.47.45:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.05.18-01.47.45:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.05.18-01.47.45:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.05.18-01.47.45:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.05.18-01.47.45:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.05.18-01.47.45:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.05.18-01.47.45:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.05.18-01.47.45:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.05.18-01.47.45:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.05.18-01.47.45:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.05.18-01.47.46:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.05.18-01.47.46:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.05.18-01.47.46:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.05.18-01.47.46:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.05.18-01.47.46:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.05.18-01.47.46:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.05.18-01.47.46:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Fire01.uasset"
-[2017.05.18-01.47.46:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.05.18-01.47.46:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.05.18-01.47.46:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.05.18-01.47.46:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Light01.uasset"
-[2017.05.18-01.47.46:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.05.18-01.47.46:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Light02.uasset"
-[2017.05.18-01.47.46:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.05.18-01.47.46:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.05.18-01.47.46:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.05.18-01.47.46:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.05.18-01.47.46:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.05.18-01.47.46:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.05.18-01.47.46:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.05.18-01.47.46:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.05.18-01.47.46:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.05.18-01.47.46:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Steam01.uasset"
-[2017.05.18-01.47.46:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.05.18-01.47.46:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.05.18-01.47.46:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.05.18-01.47.46:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.05.18-01.47.46:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.05.18-01.47.46:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.05.18-01.47.46:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.05.18-01.47.46:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.05.18-01.47.46:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.05.18-01.47.46:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.05.18-01.47.46:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.05.18-01.47.46:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.05.18-01.47.46:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.05.18-01.47.46:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.05.18-01.47.46:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.05.18-01.47.46:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.05.18-01.47.46:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.05.18-01.47.47:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.05.18-01.47.47:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.05.18-01.47.47:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.05.18-01.47.47:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.05.18-01.47.47:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.05.18-01.47.47:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/StarterMap.umap"
-[2017.05.18-01.47.47:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.05.18-01.47.47:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.05.18-01.47.47:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.05.18-01.47.47:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.05.18-01.47.47:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.05.18-01.47.47:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.05.18-01.47.47:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.05.18-01.47.47:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.05.18-01.47.47:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.05.18-01.47.47:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.05.18-01.47.47:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.05.18-01.47.47:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.05.18-01.47.47:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.05.18-01.47.47:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.05.18-01.47.47:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.05.18-01.47.47:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.05.18-01.47.47:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.05.18-01.47.47:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.05.18-01.47.47:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.05.18-01.47.47:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.05.18-01.47.47:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.05.18-01.47.47:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.05.18-01.47.47:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.05.18-01.47.47:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.05.18-01.47.47:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.05.18-01.47.48:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.05.18-01.47.48:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.05.18-01.47.48:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.05.18-01.47.48:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.05.18-01.47.48:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.05.18-01.47.48:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.05.18-01.47.48:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.05.18-01.47.48:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.05.18-01.47.48:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.05.18-01.47.48:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.05.18-01.47.48:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.05.18-01.47.48:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.05.18-01.47.48:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.05.18-01.47.48:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.05.18-01.47.48:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.05.18-01.47.48:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.05.18-01.47.48:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.05.18-01.47.48:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.05.18-01.47.48:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.05.18-01.47.48:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.05.18-01.47.48:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.05.18-01.47.48:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.05.18-01.47.48:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.05.18-01.47.48:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.05.18-01.47.48:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.05.18-01.47.48:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.05.18-01.47.48:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.05.18-01.47.48:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.05.18-01.47.48:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.05.18-01.47.48:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.05.18-01.47.48:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.05.18-01.47.48:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.05.18-01.47.48:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.05.18-01.47.48:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.05.18-01.47.48:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.05.18-01.47.48:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.05.18-01.47.48:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.05.18-01.47.48:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.05.18-01.47.48:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.05.18-01.47.48:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.05.18-01.47.48:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Door.uasset"
-[2017.05.18-01.47.49:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.05.18-01.47.49:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.05.18-01.47.49:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.05.18-01.47.49:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.05.18-01.47.49:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.05.18-01.47.49:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.05.18-01.47.49:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.05.18-01.47.50:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.05.18-01.47.50:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.05.18-01.47.50:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.05.18-01.47.50:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.05.18-01.47.50:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.05.18-01.47.50:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.05.18-01.47.50:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.05.18-01.47.50:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.05.18-01.47.50:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.05.18-01.47.50:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.05.18-01.47.51:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.05.18-01.47.51:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.05.18-01.47.51:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.05.18-01.47.51:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.05.18-01.47.51:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.05.18-01.47.51:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.05.18-01.47.51:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.05.18-01.47.51:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.05.18-01.47.51:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.05.18-01.47.51:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.05.18-01.47.51:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.05.18-01.47.51:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.05.18-01.47.51:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.05.18-01.47.51:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.05.18-01.47.51:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.05.18-01.47.51:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.05.18-01.47.52:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.05.18-01.47.52:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.05.18-01.47.52:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.05.18-01.47.52:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.05.18-01.47.52:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.05.18-01.47.52:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.05.18-01.47.52:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.05.18-01.47.52:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.05.18-01.47.52:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.05.18-01.47.52:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.05.18-01.47.52:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.05.18-01.47.53:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.05.18-01.47.53:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.05.18-01.47.53:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.05.18-01.47.53:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.05.18-01.47.53:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.05.18-01.47.54:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.05.18-01.47.55:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.05.18-01.47.55:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.05.18-01.47.55:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.05.18-01.47.55:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.05.18-01.47.55:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.05.18-01.47.55:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.05.18-01.47.55:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.05.18-01.47.55:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.05.18-01.47.55:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.05.18-01.47.55:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.05.18-01.47.55:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.05.18-01.47.55:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.05.18-01.47.55:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.05.18-01.47.55:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.05.18-01.47.55:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.05.18-01.47.56:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.05.18-01.47.56:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.05.18-01.47.57:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.05.18-01.47.57:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.05.18-01.47.57:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.05.18-01.47.57:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.05.18-01.47.58:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.05.18-01.47.58:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.05.18-01.47.59:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.05.18-01.48.00:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.05.18-01.48.00:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.05.18-01.48.01:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.05.18-01.48.02:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.05.18-01.48.03:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.05.18-01.48.04:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.05.18-01.48.04:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.05.18-01.48.04:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.05.18-01.48.04:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.05.18-01.48.04:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.05.18-01.48.04:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.05.18-01.48.04:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.05.18-01.48.04:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.05.18-01.48.04:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.05.18-01.48.05:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.05.18-01.48.05:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.05.18-01.48.05:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.05.18-01.48.05:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.05.18-01.48.05:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.05.18-01.48.06:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.05.18-01.48.06:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.05.18-01.48.07:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.05.18-01.48.07:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.05.18-01.48.08:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.05.18-01.48.08:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.05.18-01.48.09:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.05.18-01.48.09:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.05.18-01.48.10:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.05.18-01.48.10:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.05.18-01.48.10:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.05.18-01.48.11:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.05.18-01.48.11:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.05.18-01.48.11:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.05.18-01.48.11:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.05.18-01.48.12:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.05.18-01.48.12:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.05.18-01.48.13:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.05.18-01.48.13:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.05.18-01.48.14:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.05.18-01.48.15:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.05.18-01.48.15:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.05.18-01.48.16:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.05.18-01.48.17:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.05.18-01.48.17:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.05.18-01.48.18:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.05.18-01.48.19:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.05.18-01.48.19:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.05.18-01.48.19:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.05.18-01.48.19:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.05.18-01.48.20:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.05.18-01.48.20:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.05.18-01.48.20:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.05.18-01.48.20:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.05.18-01.48.20:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.05.18-01.48.20:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.05.18-01.48.21:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.05.18-01.48.21:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.05.18-01.48.21:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.05.18-01.48.21:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.05.18-01.48.21:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.05.18-01.48.21:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.05.18-01.48.21:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.05.18-01.48.21:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.05.18-01.48.21:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.05.18-01.48.22:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.05.18-01.48.22:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.05.18-01.48.22:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.05.18-01.48.23:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.05.18-01.48.23:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.05.18-01.48.23:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.05.18-01.48.23:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.05.18-01.48.24:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.05.18-01.48.24:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.05.18-01.48.27:585][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
-[2017.05.18-01.48.27:867][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2017.05.18-01.48.28:608][  0]LogSavePackage: Save=625.71ms
-[2017.05.18-01.48.28:608][  0]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Floor_400x400F757970A444869D33771D886461B2EAC.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.05.18-01.48.28:655][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.05.18-01.48.28:656][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.05.18-01.48.28:659][  0]Cmd: MAP LOAD FILE="../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.18-01.48.28:660][  0]LightingResults: New page: 라이팅 빌드
-[2017.05.18-01.48.34:182][  0]MapCheck: New page: 맵 체크
-[2017.05.18-01.48.34:182][  0]LightingResults: New page: 라이팅 빌드
-[2017.05.18-01.48.36:326][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.05.18-01.48.36:704][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.18-01.48.36:705][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.18-01.48.36:768][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 62.864ms.
-[2017.05.18-01.48.36:768][  0]LogFileHelpers: Loading map 'Minimal_Default' took 8.108
-[2017.05.18-01.48.37:769][  0]LogCollectionManager: Loaded 0 collections in 0.002112 seconds
-[2017.05.18-01.48.37:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Saved/Collections/' took 0.01s
-[2017.05.18-01.48.37:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Content/Developers/yang/Collections/' took 0.01s
-[2017.05.18-01.48.37:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Content/Collections/' took 0.01s
-[2017.05.18-01.48.37:951][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.05.18-01.48.37:964][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2245 classes and 453 folders.
-[2017.05.18-01.48.37:968][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.05.18-01.48.37:968][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.05.18-01.48.38:009][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.05.18-01.48.42:194][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2017.05.18-01.48.42:370][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.05.18-01.48.43:110][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.05.18-01.48.43:122][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
-[2017.05.18-01.48.43:379][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.05.18-01.48.43:379][  0]LogLoad: (Engine Initialization) Total time: 73.89 seconds
-[2017.05.18-01.48.43:379][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
-[2017.05.18-01.48.43:379][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.05.18-01.48.43:379][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.05.18-01.48.43:392][  0]LogOcInput: OculusInput pre-init called
-[2017.05.18-01.48.43:417][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.05.18-01.48.43:503][  0]LogSlate: Took 0.035647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.05.18-01.48.43:679][  0]LogSlate: Took 0.166840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2017.05.18-01.48.43:694][  0]LogSlate: Took 0.013544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.05.18-01.48.43:727][  0]LogSlate: Took 0.028672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.05.18-01.48.43:960][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:3).
-[2017.05.18-01.48.43:960][  0]LogSlate: Took 0.021043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.18-01.48.44:483][  1]LogAssetRegistry: Asset discovery search completed in 65.6987 seconds
-[2017.05.18-01.48.44:483][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2017.05.18-01.48.44:483][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2017.05.18-01.48.47:606][ 56]LogTemp: Repeting last play command: 선택된 뷰포트
-[2017.05.18-01.48.47:610][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.05.18-01.48.47:610][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.05.18-01.48.47:610][ 56]PIE: New page: PIE 세션: Minimal_Default (2017. 5. 18. 오후 7:48:47)
-[2017.05.18-01.48.47:610][ 56]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2017.05.18-01.48.47:686][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075600s)
-[2017.05.18-01.48.47:687][ 56]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.05.18-01.48.47:688][ 56]LogPlayLevel: PIE: World Init took: (0.002092s)
-[2017.05.18-01.48.47:688][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.078143s)
-[2017.05.18-01.48.47:708][ 56]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.05.18-01.48.47:739][ 56]LogInit: FAudioDevice initialized.
-[2017.05.18-01.48.47:798][ 56]LogLoad: Game class is 'GameModeBase'
-[2017.05.18-01.48.47:804][ 56]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.05.18-10.48.47
-[2017.05.18-01.48.47:805][ 56]LogWorld: Bringing up level for play took: 0.003131
-[2017.05.18-01.48.47:879][ 56]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.05.18-01.48.47:909][ 56]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.996
-[2017.05.18-01.48.47:910][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.05.18-01.50.46:134][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.05.18-01.50.46:201][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2017.05.18-01.50.46:266][293]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.05.18-01.50.46:336][293]LogSlate: Took 0.015224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.18-01.50.46:379][293]LightingResults: New page: 라이팅 빌드
-[2017.05.18-01.50.46:386][293]LoadErrors: New page: 맵 로드중: Template_Default.umap
-[2017.05.18-01.50.46:400][293]MapCheck: New page: 맵 체크
-[2017.05.18-01.50.46:400][293]LightingResults: New page: 라이팅 빌드
-[2017.05.18-01.50.46:604][293]LogAIModule: Creating AISystem for world Untitled_1
-[2017.05.18-01.50.46:620][293]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.05.18-01.50.46:754][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.18-01.50.46:778][293]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.05.18-01.50.46:828][293]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 49.988ms.
-[2017.05.18-01.50.46:828][293]LogFileHelpers: Loading map 'Template_Default' took 3.528
-[2017.05.18-02.52.21:215][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.52.24:016][957]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.05.18-02.52.35:532][155]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.05.18-02.52.36:045][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.52.54:189][291]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2017.05.18-02.52.56:967][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.53.06:243][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.53.51:116][505]Cmd: EDIT COPY
-[2017.05.18-02.53.51:644][532]Cmd: EDIT PASTE
-[2017.05.18-02.54.19:108][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.54.35:732][986]Cmd: TRANSACTION UNDO
-[2017.05.18-02.54.35:732][986]LogEditorTransaction: Undo 액터 이동
-[2017.05.18-02.55.11:254][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.55.32:247][348]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2017.05.18-02.55.47:433][125]LogEditorViewport: Clicking on Actor (double click): Brush (Box 브러시3)
-[2017.05.18-02.55.48:263][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.55.50:761][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.56.11:595][753]Cmd: TRANSACTION UNDO
-[2017.05.18-02.56.11:595][753]LogEditorTransaction: Undo 액터 이동
-[2017.05.18-02.56.11:598][753]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
-[2017.05.18-02.56.11:598][753]LogGeometryMode:Warning: Unable to resolve Box브러시3 Brush in new BSP, see above
-[2017.05.18-02.56.11:598][753]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
-[2017.05.18-02.56.20:515][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.56.27:533][530]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2017.05.18-02.56.40:146][836]Cmd: TRANSACTION UNDO
-[2017.05.18-02.56.40:146][836]LogEditorTransaction: Undo Y 편집
-[2017.05.18-02.56.40:149][836]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Box브러시3.BrushComponent0) Component already registered.
-[2017.05.18-02.57.18:489][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.57.34:122][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.05.18-02.57.46:596][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level" FILE="../../../../../../Users/yang/HomeExam/Home/Content/level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.05.18-02.57.46:748][740]LogSavePackage: Save=126.37ms
-[2017.05.18-02.57.46:748][740]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/level7662F82A409CAE2273DB309DEC590525.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/level.umap'
-[2017.05.18-02.57.46:750][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/level.umap
-[2017.05.18-02.57.46:831][740]LogFileHelpers: Saving map 'level' took 1.681
-[2017.05.18-02.58.09:274][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level" FILE="../../../../../../Users/yang/HomeExam/Home/Content/level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.05.18-02.58.09:307][953]LogSavePackage: Save=24.12ms
-[2017.05.18-02.58.09:307][953]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/levelD59D088B4CA45A9F1B929F9AE9A57C24.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/level.umap'
-[2017.05.18-02.58.09:308][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/level.umap
+[2017.05.18-08.31.34:364][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-08.31.34:381][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
+[2017.05.18-08.31.34:381][  0]LogD3D11RHI:       972/0/1759 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.18-08.31.34:381][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-08.31.34:385][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-08.31.34:385][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-08.31.34:385][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-08.31.34:385][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
+[2017.05.18-08.31.34:385][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2017.05.18-08.31.34:385][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2017.05.18-08.31.34:385][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2017.05.18-08.31.34:385][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.05.18-08.31.34:385][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.05.18-08.31.34:385][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.05.18-08.31.34:386][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.05.18-08.31.34:386][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
+[2017.05.18-08.31.34:386][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.05.18-08.31.34:386][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.05.18-08.31.34:386][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2017.05.18-08.31.34:395][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-08.31.34:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.18-08.31.34:457][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Users/yang/HomeExam/Home/Intermediate/Shaders/WorkingDirectory/4572/).
+[2017.05.18-08.31.34:457][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yang/AppData/Local/Temp/UnrealShaderWorkingDir/B731B536440A9F4B0CCA5C99E0B554B5/'.
+[2017.05.18-08.31.34:457][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-08.31.35:310][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-08.31.35:347][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-08.31.35:384][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-08.31.35:421][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-08.31.35:459][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-08.31.35:496][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-08.31.35:533][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-08.31.35:570][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-08.31.35:599][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-08.31.35:635][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-08.31.35:670][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-08.31.35:706][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-08.31.35:741][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-08.31.35:776][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-08.31.35:811][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-08.31.35:881][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-08.31.35:881][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-08.31.35:903][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-08.31.35:969][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-08.31.35:992][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-08.31.36:028][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-08.31.36:063][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-08.31.36:098][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-08.31.36:133][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-08.31.36:133][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-08.31.36:380][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-08.31.36:431][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/yang/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-08.31.36:431][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/yang/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-08.31.36:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/yang/HomeExam/Home/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-08.31.36:431][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-08.31.36:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/yang/HomeExam/Home/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-08.31.36:431][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-08.31.36:448][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-08.31.36:459][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-08.31.36:467][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-08.31.36:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-08.31.36:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-08.31.36:680][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-08.31.36:682][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-08.31.36:834][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-08.31.36:859][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-08.31.36:886][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-08.31.36:886][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-08.31.36:886][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-08.31.37:280][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: home, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1691153015
+[2017.05.18-08.31.37:315][  0]LogAssetRegistry: FAssetRegistry took 0.0195 seconds to start up
+[2017.05.18-08.31.37:344][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.016360 seconds
+[2017.05.18-08.31.37:350][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.18-08.31.37:350][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.18-08.31.37:350][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-08.31.37:386][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-08.31.38:404][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-08.31.38:430][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-08.31.38:728][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-08.31.38:962][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-08.31.38:963][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-08.31.38:990][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-08.31.39:016][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-08.31.39:731][  0]LogEngine: Initializing Engine...
+[2017.05.18-08.31.39:731][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-08.31.39:894][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-08.31.39:902][  0]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.31.39:907][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-08.31.39:935][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/yang/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-08.31.39:940][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-08.31.39:995][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-08.31.40:046][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-08.31.40:244][  0]BlueprintLog: New page: 에디터 로드
+[2017.05.18-08.31.40:749][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.05.18-08.31.41:139][  0]LogConsoleResponse:Display: 
+[2017.05.18-08.31.41:237][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-08.31.41:237][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-08.31.41:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Content/' took 0.01s
+[2017.05.18-08.31.41:817][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-08.31.41:817][  0]Cmd: MAP LOAD FILE="../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-08.31.41:828][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-08.31.41:852][  0]MapCheck: New page: 맵 체크
+[2017.05.18-08.31.41:852][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-08.31.43:094][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.18-08.31.43:226][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-08.31.43:239][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-08.31.43:306][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 66.53ms.
+[2017.05.18-08.31.43:306][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.489
+[2017.05.18-08.31.43:533][  0]LogCollectionManager: Loaded 0 collections in 0.000909 seconds
+[2017.05.18-08.31.43:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Saved/Collections/' took 0.01s
+[2017.05.18-08.31.43:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Content/Developers/yang/Collections/' took 0.01s
+[2017.05.18-08.31.43:591][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yang/HomeExam/Home/Content/Collections/' took 0.01s
+[2017.05.18-08.31.43:591][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.05.18-08.31.43:599][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2245 classes and 453 folders.
+[2017.05.18-08.31.43:601][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-08.31.43:601][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-08.31.43:637][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-08.31.43:661][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.18-08.31.43:688][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-08.31.43:789][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-08.31.43:793][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.18-08.31.43:839][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.18-08.31.43:840][  0]LogLoad: (Engine Initialization) Total time: 11.80 seconds
+[2017.05.18-08.31.43:840][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.05.18-08.31.43:840][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.18-08.31.43:840][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.18-08.31.44:182][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-08.31.44:213][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-08.31.44:223][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-08.31.44:230][  0]LogSlate: Took 0.003845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.05.18-08.31.44:232][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-08.31.44:240][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-08.31.44:378][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-08.31.44:676][  2]LogRenderer: Reallocating scene render targets to support 808x368 NumSamples 1 (Frame:2).
+[2017.05.18-08.31.44:855][  2]LogAssetRegistry: Asset discovery search completed in 7.5595 seconds
+[2017.05.18-08.31.44:855][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000013 seconds (found 0 objects)
+[2017.05.18-08.31.44:855][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.05.18-08.31.57:278][115]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-08.31.57:446][115]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.31.57:479][115]Cmd: MAP LOAD FILE="../../../../../../Users/yang/HomeExam/Home/Content/level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-08.31.57:480][115]LightingResults: New page: 라이팅 빌드
+[2017.05.18-08.31.57:481][115]LoadErrors: New page: 맵 로드중: level.umap
+[2017.05.18-08.31.57:499][115]MapCheck: New page: 맵 체크
+[2017.05.18-08.31.57:499][115]LightingResults: New page: 라이팅 빌드
+[2017.05.18-08.31.57:583][115]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-08.31.57:699][115]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-08.31.57:761][115]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 61.69ms.
+[2017.05.18-08.31.57:761][115]LogFileHelpers: Loading map 'level' took 0.282
+[2017.05.18-08.31.58:859][221]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:166).
+[2017.05.18-08.33.34:250][297]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-08.33.34:626][297]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.05.18-08.33.36:486][298]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:3630).
+[2017.05.18-08.33.37:807][299]LogSlate: Took 0.053404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-08.33.41:839][560]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-08.33.59:742][600]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.34.01:309][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-08.34.01:408][651]LogSavePackage: Save=84.99ms
+[2017.05.18-08.34.01:408][651]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPE98CE6564FF18488942862B3819E304A.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-08.34.01:453][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-08.35.08:427][406]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-08.35.11:724][412]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-08.35.12:226][413]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-08.35.15:828][417]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Home
+
+[2017.05.18-08.35.15:828][417]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-08.35.15:828][417]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-08.35.15:828][417]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-08.35.15:828][417]LogTemp:Display: BranchPath = YANG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = YANG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-08.35.16:512][419]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\yang\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-08.35.16:513][419]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-08.35.16:513][419]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-08.35.16:513][419]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2017.05.18-08.35.16:543][419]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-08.35.16:543][419]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-08.35.16:543][419]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-08.38.33:275][195]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.39.42:145][ 43]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.39.43:066][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-08.39.43:243][ 71]LogSavePackage: Save=130.46ms
+[2017.05.18-08.39.43:243][ 71]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBP43956BF34D4F08E772EC929CBADB075E.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-08.39.43:244][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-08.39.45:207][276]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.39.45:433][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.39.45:639][276]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:39:45)
+[2017.05.18-08.39.45:675][276]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.39.45:897][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.221666s)
+[2017.05.18-08.39.45:925][276]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.39.45:980][276]LogPlayLevel: PIE: World Init took: (0.083098s)
+[2017.05.18-08.39.45:992][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.326973s)
+[2017.05.18-08.39.46:236][276]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.39.46:448][276]LogInit: FAudioDevice initialized.
+[2017.05.18-08.39.46:733][276]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.39.46:910][276]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.39.46
+[2017.05.18-08.39.46:970][276]LogWorld: Bringing up level for play took: 0.076009
+[2017.05.18-08.39.47:317][276]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0107 seconds. Added 11 classes and 0 folders.
+[2017.05.18-08.39.47:380][276]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 1.568
+[2017.05.18-08.40.05:383][187]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.40.05:428][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.40.05:428][187]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:40:05)
+[2017.05.18-08.40.05:428][187]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.40.05:438][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009403s)
+[2017.05.18-08.40.05:440][187]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.40.05:440][187]LogPlayLevel: PIE: World Init took: (0.001903s)
+[2017.05.18-08.40.05:440][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.011817s)
+[2017.05.18-08.40.05:492][187]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.40.05:498][187]LogInit: FAudioDevice initialized.
+[2017.05.18-08.40.05:526][187]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.40.05:528][187]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.40.05
+[2017.05.18-08.40.05:528][187]LogWorld: Bringing up level for play took: 0.000664
+[2017.05.18-08.40.05:529][187]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.283
+[2017.05.18-08.40.12:235][963]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.40.12:245][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.40.12:245][963]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:40:12)
+[2017.05.18-08.40.12:245][963]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.40.12:248][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003015s)
+[2017.05.18-08.40.12:248][963]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.40.12:248][963]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.05.18-08.40.12:249][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003756s)
+[2017.05.18-08.40.12:264][963]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.40.12:268][963]LogInit: FAudioDevice initialized.
+[2017.05.18-08.40.12:296][963]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.40.12:297][963]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.40.12
+[2017.05.18-08.40.12:297][963]LogWorld: Bringing up level for play took: 0.000675
+[2017.05.18-08.40.12:298][963]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.485
+[2017.05.18-08.40.16:616][459]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.18-08.40.16:652][459]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2017.05.18-08.40.18:766][705]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.40.18:776][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.40.18:776][705]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:40:18)
+[2017.05.18-08.40.18:776][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.40.18:779][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002943s)
+[2017.05.18-08.40.18:780][705]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.40.18:780][705]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.05.18-08.40.18:780][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003818s)
+[2017.05.18-08.40.18:795][705]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.40.18:799][705]LogInit: FAudioDevice initialized.
+[2017.05.18-08.40.18:829][705]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.40.18:831][705]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.40.18
+[2017.05.18-08.40.18:831][705]LogWorld: Bringing up level for play took: 0.000680
+[2017.05.18-08.40.18:832][705]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 1.019
+[2017.05.18-08.41.51:618][244]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-08.42.04:238][818]BlueprintLog: New page: ShooterMode 컴파일
+[2017.05.18-08.42.11:603][165]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.42.11:614][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.42.11:614][165]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:42:11)
+[2017.05.18-08.42.11:614][165]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.42.11:617][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003136s)
+[2017.05.18-08.42.11:631][165]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.42.11:632][165]LogPlayLevel: PIE: World Init took: (0.014461s)
+[2017.05.18-08.42.11:632][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.017784s)
+[2017.05.18-08.42.11:650][165]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.42.11:654][165]LogInit: FAudioDevice initialized.
+[2017.05.18-08.42.11:681][165]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.42.11:683][165]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.42.11
+[2017.05.18-08.42.11:683][165]LogWorld: Bringing up level for play took: 0.000654
+[2017.05.18-08.42.11:684][165]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.13
+[2017.05.18-08.43.05:584][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level" FILE="../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/level_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.05.18-08.43.05:859][384]LogSavePackage: Save=239.79ms
+[2017.05.18-08.43.05:859][384]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/level_Auto1B5D216824B8F685F2130DE8BC00379E2.tmp' to '../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/level_Auto1.umap'
+[2017.05.18-08.43.05:860][384]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/level_Auto1.umap
+[2017.05.18-08.43.05:891][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level' took 0.339
+[2017.05.18-08.43.05:891][384]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.339
+[2017.05.18-08.43.05:893][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ShooterMode] ([1] browsable assets)...
+[2017.05.18-08.43.05:893][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/ShooterMode]
+[2017.05.18-08.43.05:893][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterMode" FILE="../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/ShooterMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-08.43.05:926][384]LogSavePackage: Save=24.61ms
+[2017.05.18-08.43.05:926][384]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/ShooterMode_Auto167529C7C4D0FF36E4642668112F53DD7.tmp' to '../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/ShooterMode_Auto1.uasset'
+[2017.05.18-08.43.05:927][384]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/ShooterMode_Auto1.uasset
+[2017.05.18-08.43.05:927][384]LogFileHelpers: Auto-saving content packages took 0.035
+[2017.05.18-08.48.48:888][963]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.48.48:901][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.48.48:901][963]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:48:48)
+[2017.05.18-08.48.48:901][963]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.48.48:904][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003185s)
+[2017.05.18-08.48.48:905][963]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.48.48:905][963]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.05.18-08.48.48:905][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.004241s)
+[2017.05.18-08.48.48:922][963]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.48.48:941][963]LogInit: FAudioDevice initialized.
+[2017.05.18-08.48.48:972][963]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.48.48:975][963]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.48.48
+[2017.05.18-08.48.48:975][963]LogWorld: Bringing up level for play took: 0.001435
+[2017.05.18-08.48.48:978][963]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.842
+[2017.05.18-08.48.56:673][860]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.48.56:684][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.48.56:684][860]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:48:56)
+[2017.05.18-08.48.56:696][860]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.48.56:699][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
+[2017.05.18-08.48.56:699][860]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.48.56:699][860]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.05.18-08.48.56:699][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003366s)
+[2017.05.18-08.48.56:716][860]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.48.56:720][860]LogInit: FAudioDevice initialized.
+[2017.05.18-08.48.56:760][860]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.48.56:762][860]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.48.56
+[2017.05.18-08.48.56:762][860]LogWorld: Bringing up level for play took: 0.000669
+[2017.05.18-08.48.56:763][860]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.943
+[2017.05.18-08.49.19:829][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-08.49.24:001][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level" FILE="../../../../../../Users/yang/HomeExam/Home/Content/level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-08.49.24:172][258]LogSavePackage: Save=123.39ms
+[2017.05.18-08.49.24:172][258]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/levelDFC8300A4B2C88276C49A0968C85B045.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/level.umap'
+[2017.05.18-08.49.24:187][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/level.umap
+[2017.05.18-08.49.24:253][258]LogFileHelpers: Saving map 'level' took 3.837
+[2017.05.18-08.49.24:262][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterMode" FILE="../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset" SILENT=true
+[2017.05.18-08.49.24:276][258]LogSavePackage: Save=12.88ms
+[2017.05.18-08.49.24:276][258]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/ShooterMode7107AD354FDF2825BE72FE950D44B255.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset'
+[2017.05.18-08.49.24:278][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset
+[2017.05.18-08.49.50:025][914]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.49.50:045][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.49.50:045][914]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:49:50)
+[2017.05.18-08.49.50:045][914]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.49.50:048][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002718s)
+[2017.05.18-08.49.50:049][914]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.49.50:049][914]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.05.18-08.49.50:049][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003876s)
+[2017.05.18-08.49.50:066][914]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.49.50:069][914]LogInit: FAudioDevice initialized.
+[2017.05.18-08.49.50:098][914]LogLoad: Game class is 'GameModeBase'
+[2017.05.18-08.49.50:099][914]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.49.50
+[2017.05.18-08.49.50:099][914]LogWorld: Bringing up level for play took: 0.000647
+[2017.05.18-08.49.50:100][914]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.279
+[2017.05.18-08.50.03:591][418]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-08.50.06:765][632]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-08.50.08:127][761]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Home
+
+[2017.05.18-08.50.08:128][761]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-08.50.08:128][761]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-08.50.08:128][761]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-08.50.08:146][763]LogTemp:Display: BranchPath = YANG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = YANG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\yang\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-08.50.09:045][848]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-08.50.09:870][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level" FILE="../../../../../../Users/yang/HomeExam/Home/Content/level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.18-08.50.09:929][930]LogSavePackage: Save=46.11ms
+[2017.05.18-08.50.09:929][930]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/level58C43B384D798A25E406C2AD5E7EEFEC.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/level.umap'
+[2017.05.18-08.50.09:929][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/level.umap
+[2017.05.18-08.50.09:941][930]LogFileHelpers: Saving map 'level' took 0.101
+[2017.05.18-08.50.10:241][966]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.50.10:248][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.50.10:248][966]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:50:10)
+[2017.05.18-08.50.10:248][966]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.50.10:251][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002535s)
+[2017.05.18-08.50.10:251][966]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.50.10:251][966]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.05.18-08.50.10:252][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003278s)
+[2017.05.18-08.50.10:264][966]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.50.10:268][966]LogInit: FAudioDevice initialized.
+[2017.05.18-08.50.10:299][966]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.50.10:300][966]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.50.10
+[2017.05.18-08.50.10:301][966]LogWorld: Bringing up level for play took: 0.000658
+[2017.05.18-08.50.10:302][966]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.481
+[2017.05.18-08.50.14:100][320]LogSlate: Took 0.040681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-08.53.29:986][108]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.53.31:535][249]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.53.31:546][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.53.31:546][249]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:53:31)
+[2017.05.18-08.53.31:546][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.53.31:549][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002903s)
+[2017.05.18-08.53.31:549][249]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.53.31:550][249]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.05.18-08.53.31:550][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003889s)
+[2017.05.18-08.53.31:566][249]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.53.31:571][249]LogInit: FAudioDevice initialized.
+[2017.05.18-08.53.31:598][249]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.53.31:599][249]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.53.31
+[2017.05.18-08.53.31:600][249]LogWorld: Bringing up level for play took: 0.000634
+[2017.05.18-08.53.31:601][249]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.222
+[2017.05.18-08.53.53:335][923]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.54.11:720][663]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.54.11:731][663]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.05.18-08.54.11:731][663]LogPlayLevel: [PlayLevel] Compiling HeroBP before play...
+[2017.05.18-08.54.11:816][663]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2017.05.18-08.54.11:816][663]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:54:11)
+[2017.05.18-08.54.11:816][663]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.54.11:818][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002161s)
+[2017.05.18-08.54.11:819][663]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.54.11:819][663]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2017.05.18-08.54.11:819][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.002880s)
+[2017.05.18-08.54.11:834][663]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.54.11:838][663]LogInit: FAudioDevice initialized.
+[2017.05.18-08.54.11:865][663]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.54.11:867][663]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.54.11
+[2017.05.18-08.54.11:867][663]LogWorld: Bringing up level for play took: 0.000555
+[2017.05.18-08.54.11:868][663]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.044
+[2017.05.18-08.55.25:960][ 84]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.55.26:662][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-08.55.26:752][136]LogSavePackage: Save=77.71ms
+[2017.05.18-08.55.26:752][136]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBP28B8136B43C7A06839AB1A8816250859.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-08.55.26:753][136]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-08.55.58:674][990]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.56.00:335][152]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.56.00:344][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.56.00:356][152]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:56:00)
+[2017.05.18-08.56.00:356][152]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.56.00:359][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002310s)
+[2017.05.18-08.56.00:359][152]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.56.00:359][152]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.05.18-08.56.00:359][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003006s)
+[2017.05.18-08.56.00:374][152]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.56.00:386][152]LogInit: FAudioDevice initialized.
+[2017.05.18-08.56.00:411][152]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.56.00:413][152]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.56.00
+[2017.05.18-08.56.00:414][152]LogWorld: Bringing up level for play took: 0.001288
+[2017.05.18-08.56.00:417][152]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.592
+[2017.05.18-08.56.33:965][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-08.56.33:990][ 69]LogSavePackage: Save=23.45ms
+[2017.05.18-08.56.33:990][ 69]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPE7C577FA4AC834EDFC41E5BC626E70DC.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-08.56.33:990][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-08.56.42:568][841]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.56.44:802][ 16]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.56.44:820][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.56.44:820][ 16]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:56:44)
+[2017.05.18-08.56.44:820][ 16]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.56.44:823][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002714s)
+[2017.05.18-08.56.44:824][ 16]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.56.44:824][ 16]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.05.18-08.56.44:824][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003501s)
+[2017.05.18-08.56.44:840][ 16]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.56.44:844][ 16]LogInit: FAudioDevice initialized.
+[2017.05.18-08.56.44:871][ 16]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.56.44:872][ 16]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.56.44
+[2017.05.18-08.56.44:872][ 16]LogWorld: Bringing up level for play took: 0.000659
+[2017.05.18-08.56.44:874][ 16]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 1.049
+[2017.05.18-08.57.17:084][414]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-08.57.18:962][581]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.57.18:978][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.57.18:978][581]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:57:18)
+[2017.05.18-08.57.18:978][581]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.57.18:981][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002475s)
+[2017.05.18-08.57.18:981][581]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.57.18:981][581]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2017.05.18-08.57.18:982][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003257s)
+[2017.05.18-08.57.19:003][581]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.57.19:007][581]LogInit: FAudioDevice initialized.
+[2017.05.18-08.57.19:035][581]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.57.19:036][581]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.57.19
+[2017.05.18-08.57.19:037][581]LogWorld: Bringing up level for play took: 0.000629
+[2017.05.18-08.57.19:038][581]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.788
+[2017.05.18-08.57.54:739][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-08.57.54:764][721]LogSavePackage: Save=24.26ms
+[2017.05.18-08.57.54:764][721]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPF409D171401FE5D9DD87ABA7E485F9E7.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-08.57.54:765][721]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-08.58.07:148][ 80]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-08.58.07:162][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-08.58.07:162][ 80]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 2:58:07)
+[2017.05.18-08.58.07:162][ 80]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-08.58.07:165][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002665s)
+[2017.05.18-08.58.07:165][ 80]LogAIModule: Creating AISystem for world level
+[2017.05.18-08.58.07:166][ 80]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2017.05.18-08.58.07:166][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003510s)
+[2017.05.18-08.58.07:181][ 80]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-08.58.07:185][ 80]LogInit: FAudioDevice initialized.
+[2017.05.18-08.58.07:212][ 80]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-08.58.07:213][ 80]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-17.58.07
+[2017.05.18-08.58.07:214][ 80]LogWorld: Bringing up level for play took: 0.000596
+[2017.05.18-08.58.07:215][ 80]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.612
+[2017.05.18-09.00.43:841][300]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-09.00.46:435][428]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.00.46:445][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.00.46:445][428]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:00:46)
+[2017.05.18-09.00.46:445][428]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.00.46:448][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002708s)
+[2017.05.18-09.00.46:449][428]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.00.46:449][428]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2017.05.18-09.00.46:449][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003559s)
+[2017.05.18-09.00.46:465][428]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.00.46:471][428]LogInit: FAudioDevice initialized.
+[2017.05.18-09.00.46:499][428]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.00.46:500][428]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.00.46
+[2017.05.18-09.00.46:500][428]LogWorld: Bringing up level for play took: 0.000686
+[2017.05.18-09.00.46:502][428]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.673
+[2017.05.18-09.00.56:506][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-09.00.56:541][271]LogSavePackage: Save=23.62ms
+[2017.05.18-09.00.56:541][271]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPCBEC863342127234459A5696B1A579C2.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-09.00.56:542][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-09.03.20:279][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBlend" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBlend.uasset" SILENT=true
+[2017.05.18-09.03.20:299][319]LogSavePackage: Save=18.53ms
+[2017.05.18-09.03.20:299][319]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBlendC8E468394F50873A6E34B5A68E3D28DC.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBlend.uasset'
+[2017.05.18-09.03.20:301][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBlend.uasset
+[2017.05.18-09.03.20:322][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroABP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroABP.uasset" SILENT=true
+[2017.05.18-09.03.20:367][319]LogSavePackage: Save=44.47ms
+[2017.05.18-09.03.20:367][319]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroABPB8A75FA6477D7F47D67A01A4E5107609.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroABP.uasset'
+[2017.05.18-09.03.20:368][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroABP.uasset
+[2017.05.18-09.03.24:822][403]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0367 seconds. Added 1 classes and 2 folders.
+[2017.05.18-09.03.26:936][403]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.05.18-09.03.30:993][403]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.05.18-09.03.50:097][455]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Enemy_Walk.Enemy_Walk
+[2017.05.18-09.03.50:869][457]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Enemy_Idle.Enemy_Idle
+[2017.05.18-09.03.51:333][469]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2017.05.18-09.03.51:429][469]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2017.05.18-09.03.57:351][520]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Death_1.Death_1
+[2017.05.18-09.03.57:506][524]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Death_2.Death_2
+[2017.05.18-09.03.57:570][524]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Death_3.Death_3
+[2017.05.18-09.03.58:067][540]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2017.05.18-09.04.23:434][433]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2017.05.18-09.04.52:526][816]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimationAssets/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2017.05.18-09.05.51:881][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBlend" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBlend.uasset" SILENT=true
+[2017.05.18-09.05.52:018][685]LogSavePackage: Save=32.13ms
+[2017.05.18-09.05.52:018][685]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBlend887545AB4FB6ABDABBCEC2980176A4E2.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBlend.uasset'
+[2017.05.18-09.05.52:019][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBlend.uasset
+[2017.05.18-09.06.04:408][927]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.05.18-09.06.04:494][927]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.05.18-09.06.04:671][928]LogRenderer: Reallocating scene render targets to support 1208x724 NumSamples 1 (Frame:162375).
+[2017.05.18-09.06.39:214][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.05.18-09.06.40:841][306]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.05.18-09.07.09:354][853]LogSlate: Took 0.051679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.18-09.09.12:362][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroABP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroABP.uasset" SILENT=true
+[2017.05.18-09.09.12:784][487]LogSavePackage: Save=341.84ms
+[2017.05.18-09.09.12:784][487]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroABP4C27256C4E8FAD47434B449CE4DD6122.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroABP.uasset'
+[2017.05.18-09.09.12:786][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroABP.uasset
+[2017.05.18-09.09.21:650][785]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-09.09.25:660][951]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-09.09.28:479][ 42]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.09.28:489][ 42]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.05.18-09.09.28:489][ 42]LogPlayLevel: [PlayLevel] Compiling HeroABP before play...
+[2017.05.18-09.09.28:850][ 42]LogPlayLevel: PlayLevel: Blueprint regeneration took 360 ms (1 blueprints)
+[2017.05.18-09.09.28:850][ 42]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:09:28)
+[2017.05.18-09.09.28:850][ 42]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.09.28:951][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100928s)
+[2017.05.18-09.09.28:953][ 42]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.09.28:954][ 42]LogPlayLevel: PIE: World Init took: (0.002763s)
+[2017.05.18-09.09.28:954][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.104177s)
+[2017.05.18-09.09.29:080][ 42]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.09.29:155][ 42]LogInit: FAudioDevice initialized.
+[2017.05.18-09.09.29:195][ 42]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.09.29:200][ 42]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.09.29
+[2017.05.18-09.09.29:200][ 42]LogWorld: Bringing up level for play took: 0.002448
+[2017.05.18-09.09.29:233][ 42]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 1.397
+[2017.05.18-09.10.26:751][579]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-09.10.27:508][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-09.10.27:565][604]LogSavePackage: Save=24.14ms
+[2017.05.18-09.10.27:565][604]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPC253AB3641EE1C28944FA29F36C0F6AC.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-09.10.27:576][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-09.10.28:507][676]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.10.28:521][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.10.28:521][676]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:10:28)
+[2017.05.18-09.10.28:521][676]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.10.28:524][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003136s)
+[2017.05.18-09.10.28:525][676]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.10.28:525][676]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.05.18-09.10.28:525][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.004063s)
+[2017.05.18-09.10.28:580][676]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.10.28:642][676]LogInit: FAudioDevice initialized.
+[2017.05.18-09.10.28:668][676]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.10.28:669][676]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.10.28
+[2017.05.18-09.10.28:670][676]LogWorld: Bringing up level for play took: 0.000615
+[2017.05.18-09.10.28:678][676]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.842
+[2017.05.18-09.10.52:922][739]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.05.18-09.10.52:974][739]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.05.18-09.13.20:112][174]LogSavePackage: Save=578.77ms
+[2017.05.18-09.13.20:112][174]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/UE4_Mannequin_SkeletonC242221244CE85D8399934A32CB64DF4.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.05.18-09.13.20:130][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.05.18-09.13.22:913][195]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.13.22:950][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.13.22:951][195]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:13:22)
+[2017.05.18-09.13.22:951][195]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.13.23:068][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117353s)
+[2017.05.18-09.13.23:070][195]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.13.23:070][195]LogPlayLevel: PIE: World Init took: (0.002055s)
+[2017.05.18-09.13.23:071][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.119974s)
+[2017.05.18-09.13.23:373][195]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.13.23:392][195]LogInit: FAudioDevice initialized.
+[2017.05.18-09.13.23:452][195]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.13.23:456][195]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.13.23
+[2017.05.18-09.13.23:468][195]LogWorld: Bringing up level for play took: 0.013815
+[2017.05.18-09.13.23:481][195]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.357
+[2017.05.18-09.15.33:121][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:670][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:747][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:749][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:751][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:758][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:760][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:761][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:824][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:828][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:894][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:925][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:970][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:990][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.33:997][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:000][564]LogSavePackage: Save=1020.22ms
+[2017.05.18-09.15.34:005][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:005][564]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BP_LightStudioF29784E54BAE36FC954BE5A683A045BF.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.05.18-09.15.34:025][564]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:027][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.05.18-09.15.34:873][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:879][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:885][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:888][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:889][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:891][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:892][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:893][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:897][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:927][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:928][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:929][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:955][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:960][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:965][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:966][565]LogSavePackage: Save=128.13ms
+[2017.05.18-09.15.34:968][565]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_CeilingLight5A8F76B446B19900F0C66A8B73C790A4.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.05.18-09.15.34:979][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:982][565]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.34:982][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.05.18-09.15.36:380][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:401][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:410][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:416][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:420][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:425][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:429][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:433][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:447][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:452][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:457][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:461][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:466][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:470][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:473][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:474][566]LogSavePackage: Save=138.82ms
+[2017.05.18-09.15.36:475][566]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_Effect_ExplosionFE5C7AC14D1D0A03AC35EB93F53A07EF.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.05.18-09.15.36:502][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:530][566]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.36:530][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.05.18-09.15.37:225][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:229][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:234][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:239][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:241][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:244][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:246][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:249][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:258][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:261][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:263][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:266][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:268][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:271][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:274][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:274][567]LogSavePackage: Save=131.44ms
+[2017.05.18-09.15.37:275][567]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_Effect_Fire8F21042A4661D88CD83A64A0F4ED8324.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.05.18-09.15.37:287][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:290][567]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:290][567]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.05.18-09.15.37:529][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:575][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:578][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:580][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:581][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:583][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:588][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:592][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:606][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:610][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:613][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:615][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:617][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:619][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:621][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:622][568]LogSavePackage: Save=138.83ms
+[2017.05.18-09.15.37:623][568]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_Effect_SmokeA426F2B44522F09A3834C0A0277434A8.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.05.18-09.15.37:635][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:638][568]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.37:638][568]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.05.18-09.15.38:074][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:079][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:087][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:092][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:096][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:139][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:145][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:150][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:165][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:170][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:174][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:182][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:212][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:215][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:218][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:218][569]LogSavePackage: Save=214.27ms
+[2017.05.18-09.15.38:221][569]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_Effect_Sparks8BC42BA84647CD911CE55F933D3F8EE7.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.05.18-09.15.38:227][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:246][569]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:247][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.05.18-09.15.38:447][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:453][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:489][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:494][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:499][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:503][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:517][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:543][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:550][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:554][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:556][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:558][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:560][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:562][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:564][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:564][570]LogSavePackage: Save=171.08ms
+[2017.05.18-09.15.38:565][570]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_Effect_SteamF2FB46424CE58C4D36DC28893CA6897F.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.05.18-09.15.38:571][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:572][570]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:572][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.05.18-09.15.38:722][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:734][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:742][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:745][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:752][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:754][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:757][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:759][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:768][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:771][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:773][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:775][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:778][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:781][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:782][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:783][571]LogSavePackage: Save=96.59ms
+[2017.05.18-09.15.38:783][571]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/Blueprint_WallSconceB2606EC8453E88FE5254168CF3070B2D.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.05.18-09.15.38:791][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:793][571]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.18-09.15.38:793][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.05.18-09.16.31:144][690]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-09.16.35:753][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-09.16.35:805][ 68]LogSavePackage: Save=26.39ms
+[2017.05.18-09.16.35:805][ 68]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPEDD5839D4C1E417A9997529C7C1C1703.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-09.16.35:805][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-09.17.21:008][149]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.17.40:430][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level' took 0.100
+[2017.05.18-09.17.40:433][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Gun/GunBP] ([1] browsable assets)...
+[2017.05.18-09.17.40:433][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gun/GunBP]
+[2017.05.18-09.17.40:433][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Gun/GunBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-09.17.40:504][485]LogSavePackage: Save=51.53ms
+[2017.05.18-09.17.40:504][485]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/GunBP_Auto21A487D40485DFD2EB4CE90A2052F373E.tmp' to '../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Gun/GunBP_Auto2.uasset'
+[2017.05.18-09.17.40:505][485]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Gun/GunBP_Auto2.uasset
+[2017.05.18-09.17.40:505][485]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.05.18-09.17.49:761][761]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.18.22:352][286]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-09.18.45:604][ 46]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-09.19.50:963][165]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-09.19.52:476][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-09.19.52:523][181]LogSavePackage: Save=45.01ms
+[2017.05.18-09.19.52:523][181]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBP50BACF9349104C332B58E4B326E86509.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-09.19.52:524][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-09.19.52:614][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-09.19.52:660][181]LogSavePackage: Save=45.43ms
+[2017.05.18-09.19.52:660][181]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/GunBP177A0B1340505348617C9FBD292EBE68.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset'
+[2017.05.18-09.19.52:662][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset
+[2017.05.18-09.19.54:171][312]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.19.54:182][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.19.54:182][312]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:19:54)
+[2017.05.18-09.19.54:182][312]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.19.54:254][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071541s)
+[2017.05.18-09.19.54:255][312]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.19.54:256][312]LogPlayLevel: PIE: World Init took: (0.002164s)
+[2017.05.18-09.19.54:256][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.074209s)
+[2017.05.18-09.19.54:307][312]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.19.54:374][312]LogInit: FAudioDevice initialized.
+[2017.05.18-09.19.54:431][312]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.19.54:436][312]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.19.54
+[2017.05.18-09.19.54:436][312]LogWorld: Bringing up level for play took: 0.002180
+[2017.05.18-09.19.54:461][312]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.617
