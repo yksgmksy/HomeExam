@@ -858,3 +858,380 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.05.18-14.16.28:731][834]LogSavePackage: Save=22.45ms
 [2017.05.18-14.16.28:731][834]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HUD97E65DF64E11A6CA4FCCA5BD0900130B.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset'
 [2017.05.18-14.16.28:733][834]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_0.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_1.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_2.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_3.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_4.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_5.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:550][593]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_21:HUD_C_6.WidgetTree.CanvasPanel_0
+[2017.05.18-14.21.17:556][593]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_145).  Import failed...
+[2017.05.18-14.21.17:556][593]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.05.18-14.22.20:195][150]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UI/HUD.HUD:WidgetTree.HorizontalBox_146 or HorizontalBox /Engine/Transient.World_21:HUD_C_7.WidgetTree.HorizontalBox_146
+[2017.05.18-14.22.20:195][150]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UI/HUD.HUD:WidgetTree.HorizontalBox_146 or HorizontalBox /Engine/Transient.World_21:HUD_C_8.WidgetTree.HorizontalBox_146
+[2017.05.18-14.22.20:195][150]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/UI/HUD.HUD:WidgetTree.HorizontalBox_146 or HorizontalBox /Engine/Transient.World_21:HUD_C_9.WidgetTree.HorizontalBox_146
+[2017.05.18-14.22.20:195][150]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/UI/HUD.HUD:WidgetTree.HorizontalBox_146.HorizontalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_95).  Import failed...
+[2017.05.18-14.22.20:195][150]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_146.HorizontalBoxSlot_0''
+[2017.05.18-14.23.12:955][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/EnemyBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Enemy/EnemyBP.uasset" SILENT=true
+[2017.05.18-14.23.13:092][ 16]LogSavePackage: Save=105.79ms
+[2017.05.18-14.23.13:092][ 16]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/EnemyBPE2EA725E41C8F03AAFA4A883CE660580.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Enemy/EnemyBP.uasset'
+[2017.05.18-14.23.13:093][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Enemy/EnemyBP.uasset
+[2017.05.18-14.23.13:098][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HDO" FILE="../../../../../../Users/yang/HomeExam/Home/Content/UI/HDO.uasset" SILENT=true
+[2017.05.18-14.23.13:100][ 16]LogSavePackage: Save=1.05ms
+[2017.05.18-14.23.13:100][ 16]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HDO3E9942F246B175CBA9392294E6616D5A.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/UI/HDO.uasset'
+[2017.05.18-14.23.13:101][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/UI/HDO.uasset
+[2017.05.18-14.23.13:106][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset" SILENT=true
+[2017.05.18-14.23.13:145][ 16]LogSavePackage: Save=18.57ms
+[2017.05.18-14.23.13:145][ 16]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HUDA9734C1049DE774AF7F866AABE3C5570.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset'
+[2017.05.18-14.23.13:146][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset
+[2017.05.18-14.23.13:545][ 41]BlueprintLog: New page: HUD 컴파일
+[2017.05.18-14.24.09:112][384]LogBlueprint:Warning: [HUD] 'ScoreText' variable not found. Base class was probably changed.
+[2017.05.18-14.26.02:222][572]LogBlueprint:Warning: [HUD] 'HPbar' variable not found. Base class was probably changed.
+[2017.05.18-14.26.15:570][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset" SILENT=true
+[2017.05.18-14.26.15:611][829]LogSavePackage: Save=39.20ms
+[2017.05.18-14.26.15:611][829]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HUD440203AF4957E57D7C555E93E9AD7372.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset'
+[2017.05.18-14.26.15:612][829]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset
+[2017.05.18-14.26.23:163][522]BlueprintLog: New page: HUD 컴파일
+[2017.05.18-14.26.23:888][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset" SILENT=true
+[2017.05.18-14.26.23:907][576]LogSavePackage: Save=17.58ms
+[2017.05.18-14.26.23:907][576]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HUD6203149B4CBF8667013E75BD1D8CF6A0.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset'
+[2017.05.18-14.26.23:908][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/UI/HUD.uasset
+[2017.05.18-14.27.24:857][502]BlueprintLog: New page: ShooterMode 컴파일
+[2017.05.18-14.27.40:020][317]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.27.40:036][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.27.40:036][317]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:27:40)
+[2017.05.18-14.27.40:036][317]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.27.40:130][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084055s)
+[2017.05.18-14.27.40:132][317]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.27.40:132][317]LogPlayLevel: PIE: World Init took: (0.001947s)
+[2017.05.18-14.27.40:133][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.096416s)
+[2017.05.18-14.27.40:169][317]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.27.40:181][317]LogInit: FAudioDevice initialized.
+[2017.05.18-14.27.40:208][317]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.27.40:210][317]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.27.40
+[2017.05.18-14.27.40:211][317]LogWorld: Bringing up level for play took: 0.000980
+[2017.05.18-14.27.40:213][317]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.625
+[2017.05.18-14.27.55:307][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterMode" FILE="../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset" SILENT=true
+[2017.05.18-14.27.55:348][ 54]LogSavePackage: Save=11.93ms
+[2017.05.18-14.27.55:348][ 54]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/ShooterMode3AEA5755440977D6502390B1F80B080E.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset'
+[2017.05.18-14.27.55:349][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset
+[2017.05.18-14.28.06:419][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.29.03:372][ 10]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.29.03:388][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.29.03:388][ 10]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:29:03)
+[2017.05.18-14.29.03:388][ 10]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.29.03:391][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003408s)
+[2017.05.18-14.29.03:411][ 10]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.29.03:411][ 10]LogPlayLevel: PIE: World Init took: (0.020231s)
+[2017.05.18-14.29.03:412][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.023830s)
+[2017.05.18-14.29.03:431][ 10]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.29.03:447][ 10]LogInit: FAudioDevice initialized.
+[2017.05.18-14.29.03:483][ 10]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.29.03:488][ 10]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.29.03
+[2017.05.18-14.29.03:489][ 10]LogWorld: Bringing up level for play took: 0.002471
+[2017.05.18-14.29.03:496][ 10]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.657
+[2017.05.18-14.29.22:660][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-14.29.54:166][199]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.29.56:715][447]BlueprintLog: New page: ShooterMode 컴파일
+[2017.05.18-14.29.58:735][608]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.29.58:748][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.29.58:748][608]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:29:58)
+[2017.05.18-14.29.58:748][608]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.29.58:752][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003275s)
+[2017.05.18-14.29.58:752][608]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.29.58:752][608]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.05.18-14.29.58:752][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.004018s)
+[2017.05.18-14.29.58:770][608]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.29.58:774][608]LogInit: FAudioDevice initialized.
+[2017.05.18-14.29.58:804][608]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.29.58:806][608]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.29.58
+[2017.05.18-14.29.58:806][608]LogWorld: Bringing up level for play took: 0.000821
+[2017.05.18-14.29.58:808][608]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.032
+[2017.05.18-14.30.23:862][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterMode" FILE="../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset" SILENT=true
+[2017.05.18-14.30.23:886][303]LogSavePackage: Save=22.64ms
+[2017.05.18-14.30.23:886][303]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/ShooterMode6CA1A14F46398299CD0FD0BE812ED388.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset'
+[2017.05.18-14.30.23:887][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset
+[2017.05.18-14.30.37:605][405]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.30.41:270][718]BlueprintLog: New page: ShooterMode 컴파일
+[2017.05.18-14.30.43:080][861]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.30.43:095][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.30.43:095][861]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:30:43)
+[2017.05.18-14.30.43:095][861]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.30.43:098][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003118s)
+[2017.05.18-14.30.43:098][861]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.30.43:098][861]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2017.05.18-14.30.43:099][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003854s)
+[2017.05.18-14.30.43:117][861]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.30.43:121][861]LogInit: FAudioDevice initialized.
+[2017.05.18-14.30.43:148][861]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.30.43:149][861]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.30.43
+[2017.05.18-14.30.43:149][861]LogWorld: Bringing up level for play took: 0.000730
+[2017.05.18-14.30.43:151][861]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.311
+[2017.05.18-14.31.45:099][ 64]LogBlueprint:Warning: [ShooterMode] 'NumberEnemies' variable not found. Base class was probably changed.
+[2017.05.18-14.31.45:099][ 64]LogBlueprint:Warning: [ShooterMode] 'NumberEnemies' variable not found. Base class was probably changed.
+[2017.05.18-14.32.07:864][815]BlueprintLog: New page: ShooterMode 컴파일
+[2017.05.18-14.32.09:098][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShooterMode" FILE="../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset" SILENT=true
+[2017.05.18-14.32.09:122][866]LogSavePackage: Save=22.10ms
+[2017.05.18-14.32.09:122][866]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/ShooterModeBE15FDAB4F3C7816D62B4BAF74642FB0.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset'
+[2017.05.18-14.32.09:123][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/ShooterMode.uasset
+[2017.05.18-14.32.10:063][958]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.32.10:078][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.32.10:078][958]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:32:10)
+[2017.05.18-14.32.10:078][958]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.32.10:082][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003498s)
+[2017.05.18-14.32.10:082][958]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.32.10:082][958]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.05.18-14.32.10:083][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.004312s)
+[2017.05.18-14.32.10:113][958]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.32.10:117][958]LogInit: FAudioDevice initialized.
+[2017.05.18-14.32.10:146][958]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.32.10:148][958]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.32.10
+[2017.05.18-14.32.10:148][958]LogWorld: Bringing up level for play took: 0.000868
+[2017.05.18-14.32.10:152][958]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.69
+[2017.05.18-14.32.18:116][777]LogCharacterMovement: EnemyBP_C_8 is stuck and failed to move! Velocity: X=-81.72 Y=-15.12 Z=0.00 Location: X=-134.44 Y=-350.52 Z=231.84 Normal: X=0.76 Y=-0.62 Z=0.17 PenetrationDepth:3.413 Actor:BulletBP_C_46 Component:Cylinder BoneName:None (0 other events since notify)
+[2017.05.18-14.32.18:871][849]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_8)
+[2017.05.18-14.32.18:871][849]Cmd: restartlevel
+[2017.05.18-14.32.18:880][850]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.32.18:880][850]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.32.18:910][850]Cmd: MEM
+[2017.05.18-14.32.18:925][850]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.32.18:925][850]LogMemory: Process Physical Memory: 1925.58 MB used, 2115.76 MB peak
+[2017.05.18-14.32.18:925][850]LogMemory: Process Virtual Memory: 3307.88 MB used, 3374.70 MB peak
+[2017.05.18-14.32.18:925][850]LogMemory: Physical Memory: 3815.47 MB used,  215.14 MB free, 4030.62 MB total
+[2017.05.18-14.32.18:925][850]LogMemory: Virtual Memory: 3984.19 MB used,  215.14 MB free, 8388608.00 MB total
+[2017.05.18-14.32.18:925][850]LogMemory: 
+[2017.05.18-14.32.18:925][850]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.32.18:925][850]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.32.18:928][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002978s)
+[2017.05.18-14.32.18:928][850]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.32.18:929][850]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2017.05.18-14.32.18:929][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003743s)
+[2017.05.18-14.32.18:929][850]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.32.18:940][850]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.32.18
+[2017.05.18-14.32.18:940][850]LogWorld: Bringing up level for play took: 0.000693
+[2017.05.18-14.32.18:943][850]LogLoad: Took 0.062608 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.32.22:548][255]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_1)
+[2017.05.18-14.32.22:548][255]Cmd: restartlevel
+[2017.05.18-14.32.22:557][256]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.32.22:557][256]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.32.22:583][256]Cmd: MEM
+[2017.05.18-14.32.22:597][256]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.32.22:597][256]LogMemory: Process Physical Memory: 1910.59 MB used, 2115.76 MB peak
+[2017.05.18-14.32.22:597][256]LogMemory: Process Virtual Memory: 3172.95 MB used, 3412.95 MB peak
+[2017.05.18-14.32.22:597][256]LogMemory: Physical Memory: 3806.72 MB used,  223.90 MB free, 4030.62 MB total
+[2017.05.18-14.32.22:598][256]LogMemory: Virtual Memory: 3849.44 MB used,  223.90 MB free, 8388608.00 MB total
+[2017.05.18-14.32.22:598][256]LogMemory: 
+[2017.05.18-14.32.22:598][256]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.32.22:598][256]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.32.22:601][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003119s)
+[2017.05.18-14.32.22:601][256]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.32.22:601][256]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.05.18-14.32.22:601][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003826s)
+[2017.05.18-14.32.22:601][256]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.32.22:603][256]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.32.22
+[2017.05.18-14.32.22:603][256]LogWorld: Bringing up level for play took: 0.000657
+[2017.05.18-14.32.22:605][256]LogLoad: Took 0.048468 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.33.25:838][787]LogLinker: '/Game/Interface/DamageInterface' 파일을 찾을 수 없습니다.
+[2017.05.18-14.33.25:838][787]LogLinker: '/Game/Interface/DamageInterface' 파일을 찾을 수 없습니다.
+[2017.05.18-14.33.25:857][787]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Interface/DamageInterface.DamageInterface_C',MemberName="DecreaseHP",MemberGuid=841A0B5E4D1CC08E8AC968A46222A510)'
+[2017.05.18-14.34.03:794][231]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-14.34.26:449][631]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.37.06:959][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-14.37.07:017][518]LogSavePackage: Save=31.71ms
+[2017.05.18-14.37.07:017][518]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBPB6F3C6EE4151384C3B2F049C5ECF736D.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-14.37.07:033][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-14.38.51:289][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-14.38.51:356][682]LogSavePackage: Save=65.15ms
+[2017.05.18-14.38.51:356][682]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBP77564B8D475D1998B5BDBAB5D9FC64E8.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-14.38.51:357][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-14.42.16:263][418]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.42.17:243][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-14.42.17:310][425]LogSavePackage: Save=35.45ms
+[2017.05.18-14.42.17:310][425]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBP8F4BA4E0464BF08356913099D54EC4DB.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-14.42.17:311][425]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-14.42.57:261][288]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.42.57:286][288]LogBlueprint:Error: [Compiler BulletBP] 오류 이 블루프린트(self)는 HeroBP_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.05.18-14.42.57:453][288]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 HeroBP_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.05.18-14.42.57:465][288]LogBlueprint:Warning: [Compiler BulletBP] 경고 [4734.73] BulletBP 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 0 회, [소요시간 192 ms] (/Game/Gun/BulletBP.BulletBP)
+[2017.05.18-14.43.03:832][757]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.43.05:987][900]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.43.06:005][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.43.06:005][900]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:43:06)
+[2017.05.18-14.43.06:005][900]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.43.06:092][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086449s)
+[2017.05.18-14.43.06:092][900]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.43.06:093][900]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.05.18-14.43.06:093][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.087338s)
+[2017.05.18-14.43.06:113][900]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.43.06:147][900]LogInit: FAudioDevice initialized.
+[2017.05.18-14.43.06:180][900]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.43.06:182][900]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.43.06
+[2017.05.18-14.43.06:182][900]LogWorld: Bringing up level for play took: 0.000814
+[2017.05.18-14.43.06:189][900]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.658
+[2017.05.18-14.43.12:201][525]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_2)
+[2017.05.18-14.43.12:201][525]Cmd: restartlevel
+[2017.05.18-14.43.12:211][526]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.43.12:211][526]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.43.12:241][526]Cmd: MEM
+[2017.05.18-14.43.12:257][526]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.43.12:257][526]LogMemory: Process Physical Memory: 2075.51 MB used, 2115.76 MB peak
+[2017.05.18-14.43.12:257][526]LogMemory: Process Virtual Memory: 3642.92 MB used, 3642.92 MB peak
+[2017.05.18-14.43.12:257][526]LogMemory: Physical Memory: 3921.84 MB used,  108.78 MB free, 4030.62 MB total
+[2017.05.18-14.43.12:257][526]LogMemory: Virtual Memory: 4308.62 MB used,  108.78 MB free, 8388608.00 MB total
+[2017.05.18-14.43.12:257][526]LogMemory: 
+[2017.05.18-14.43.12:257][526]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.43.12:257][526]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.43.12:270][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003076s)
+[2017.05.18-14.43.12:271][526]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.43.12:271][526]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.05.18-14.43.12:271][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.014191s)
+[2017.05.18-14.43.12:271][526]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.43.12:273][526]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.43.12
+[2017.05.18-14.43.12:273][526]LogWorld: Bringing up level for play took: 0.000690
+[2017.05.18-14.43.12:275][526]LogLoad: Took 0.063605 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.43.41:341][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-14.43.41:360][561]LogSavePackage: Save=16.61ms
+[2017.05.18-14.43.41:360][561]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBPE56B7F05436AC172F070868086F600C6.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-14.43.41:361][561]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-14.44.47:162][ 80]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-14.44.50:212][309]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.44.50:228][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.44.50:229][309]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:44:50)
+[2017.05.18-14.44.50:229][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.44.50:232][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003607s)
+[2017.05.18-14.44.50:233][309]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.44.50:233][309]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2017.05.18-14.44.50:234][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.004942s)
+[2017.05.18-14.44.50:255][309]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.44.50:259][309]LogInit: FAudioDevice initialized.
+[2017.05.18-14.44.50:286][309]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.44.50:287][309]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.44.50
+[2017.05.18-14.44.50:288][309]LogWorld: Bringing up level for play took: 0.000830
+[2017.05.18-14.44.50:290][309]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.558
+[2017.05.18-14.44.56:474][901]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_3)
+[2017.05.18-14.44.56:474][901]Cmd: restartlevel
+[2017.05.18-14.44.56:483][902]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.44.56:483][902]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.44.56:512][902]Cmd: MEM
+[2017.05.18-14.44.56:527][902]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.44.56:527][902]LogMemory: Process Physical Memory: 2030.80 MB used, 2115.76 MB peak
+[2017.05.18-14.44.56:527][902]LogMemory: Process Virtual Memory: 3702.83 MB used, 3764.00 MB peak
+[2017.05.18-14.44.56:527][902]LogMemory: Physical Memory: 3883.70 MB used,  146.91 MB free, 4030.62 MB total
+[2017.05.18-14.44.56:527][902]LogMemory: Virtual Memory: 4360.61 MB used,  146.91 MB free, 8388608.00 MB total
+[2017.05.18-14.44.56:527][902]LogMemory: 
+[2017.05.18-14.44.56:527][902]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.44.56:527][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.44.56:531][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003096s)
+[2017.05.18-14.44.56:531][902]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.44.56:531][902]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.05.18-14.44.56:531][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003843s)
+[2017.05.18-14.44.56:531][902]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.44.56:533][902]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.44.56
+[2017.05.18-14.44.56:533][902]LogWorld: Bringing up level for play took: 0.000771
+[2017.05.18-14.44.56:535][902]LogLoad: Took 0.051975 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.45.16:470][850]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_5)
+[2017.05.18-14.45.16:470][850]Cmd: restartlevel
+[2017.05.18-14.45.16:480][851]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.45.16:480][851]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.45.16:510][851]Cmd: MEM
+[2017.05.18-14.45.16:527][851]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.45.16:527][851]LogMemory: Process Physical Memory: 1994.92 MB used, 2115.76 MB peak
+[2017.05.18-14.45.16:527][851]LogMemory: Process Virtual Memory: 3637.00 MB used, 3823.92 MB peak
+[2017.05.18-14.45.16:527][851]LogMemory: Physical Memory: 3794.34 MB used,  236.27 MB free, 4030.62 MB total
+[2017.05.18-14.45.16:527][851]LogMemory: Virtual Memory: 4294.86 MB used,  236.27 MB free, 8388608.00 MB total
+[2017.05.18-14.45.16:527][851]LogMemory: 
+[2017.05.18-14.45.16:527][851]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.45.16:527][851]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.45.16:530][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003079s)
+[2017.05.18-14.45.16:530][851]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.45.16:530][851]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.05.18-14.45.16:530][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003782s)
+[2017.05.18-14.45.16:530][851]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.45.16:532][851]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.45.16
+[2017.05.18-14.45.16:532][851]LogWorld: Bringing up level for play took: 0.000720
+[2017.05.18-14.45.16:534][851]LogLoad: Took 0.054172 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.45.29:727][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-14.45.29:758][ 24]LogSavePackage: Save=29.01ms
+[2017.05.18-14.45.29:758][ 24]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBPB7DDB7A043C5446C645C6CB30CD51C4E.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-14.45.29:758][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-14.46.40:260][842]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.46.40:762][843]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.46.41:833][844]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.46.42:450][845]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.46.43:331][848]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.46.43:833][849]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-14.47.25:193][561]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/ShooterGameMode.ShooterGameMode_C',MemberName="GameUI",MemberGuid=5EC98BAF465ED22054FB03B75C531DA7)'
+[2017.05.18-14.47.25:210][561]LogBlueprint:Warning: [HeroBP] 'GameUI' variable not found. Base class was probably changed.
+[2017.05.18-14.48.30:012][989]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-14.48.36:158][112]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-14.48.36:177][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-14.48.36:177][112]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 8:48:36)
+[2017.05.18-14.48.36:185][112]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.48.36:252][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066737s)
+[2017.05.18-14.48.36:264][112]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.48.36:264][112]LogPlayLevel: PIE: World Init took: (0.012386s)
+[2017.05.18-14.48.36:264][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.079340s)
+[2017.05.18-14.48.36:313][112]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-14.48.36:368][112]LogInit: FAudioDevice initialized.
+[2017.05.18-14.48.36:506][112]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.48.36:512][112]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.48.36
+[2017.05.18-14.48.36:512][112]LogWorld: Bringing up level for play took: 0.002539
+[2017.05.18-14.48.36:521][112]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.33
+[2017.05.18-14.48.40:795][494]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_0)
+[2017.05.18-14.48.40:795][494]Cmd: restartlevel
+[2017.05.18-14.48.40:813][495]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.48.40:813][495]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.48.40:868][495]Cmd: MEM
+[2017.05.18-14.48.40:897][495]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.48.40:897][495]LogMemory: Process Physical Memory: 2058.85 MB used, 2115.76 MB peak
+[2017.05.18-14.48.40:897][495]LogMemory: Process Virtual Memory: 3807.15 MB used, 3823.92 MB peak
+[2017.05.18-14.48.40:897][495]LogMemory: Physical Memory: 3923.61 MB used,  107.01 MB free, 4030.62 MB total
+[2017.05.18-14.48.40:897][495]LogMemory: Virtual Memory: 4488.37 MB used,  107.01 MB free, 8388608.00 MB total
+[2017.05.18-14.48.40:897][495]LogMemory: 
+[2017.05.18-14.48.40:897][495]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.48.40:897][495]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.48.40:900][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003215s)
+[2017.05.18-14.48.40:900][495]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.48.40:900][495]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.05.18-14.48.40:901][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003998s)
+[2017.05.18-14.48.40:901][495]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.48.40:902][495]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.48.40
+[2017.05.18-14.48.40:902][495]LogWorld: Bringing up level for play took: 0.000692
+[2017.05.18-14.48.40:904][495]LogLoad: Took 0.091018 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.48.45:759][953]LogBlueprintUserMessages:Warning: ClearTimer passed a bad function (DecreaseHeroHP) or object (EnemyBP_C_3)
+[2017.05.18-14.48.45:759][953]Cmd: restartlevel
+[2017.05.18-14.48.45:768][954]LogNet: Browse: /Game/level?restart
+[2017.05.18-14.48.45:769][954]LogLoad: LoadMap: /Game/level
+[2017.05.18-14.48.45:797][954]Cmd: MEM
+[2017.05.18-14.48.45:828][954]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-14.48.45:828][954]LogMemory: Process Physical Memory: 1971.91 MB used, 2115.76 MB peak
+[2017.05.18-14.48.45:828][954]LogMemory: Process Virtual Memory: 3711.22 MB used, 3928.23 MB peak
+[2017.05.18-14.48.45:828][954]LogMemory: Physical Memory: 3843.09 MB used,  187.53 MB free, 4030.62 MB total
+[2017.05.18-14.48.45:828][954]LogMemory: Virtual Memory: 4392.62 MB used,  187.53 MB free, 8388608.00 MB total
+[2017.05.18-14.48.45:828][954]LogMemory: 
+[2017.05.18-14.48.45:828][954]Allocator Stats for TBB: (not implemented)
+[2017.05.18-14.48.45:828][954]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-14.48.45:836][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008125s)
+[2017.05.18-14.48.45:836][954]LogAIModule: Creating AISystem for world level
+[2017.05.18-14.48.45:836][954]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.05.18-14.48.45:837][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.008896s)
+[2017.05.18-14.48.45:837][954]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-14.48.45:838][954]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-23.48.45
+[2017.05.18-14.48.45:838][954]LogWorld: Bringing up level for play took: 0.000683
+[2017.05.18-14.48.45:841][954]LogLoad: Took 0.072278 seconds to LoadMap(/Game/UEDPIE_0_level)
+[2017.05.18-14.50.34:655][ 23]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level' took 0.044
+[2017.05.18-14.50.34:657][ 23]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hero/HeroBP] ([1] browsable assets)...
+[2017.05.18-14.50.34:956][ 23]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Hero/HeroBP.HeroBP]
+[2017.05.18-14.50.34:956][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hero/HeroBP]
+[2017.05.18-14.50.34:957][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Hero/HeroBP_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-14.50.35:537][ 23]LogSavePackage: Save=160.34ms
+[2017.05.18-14.50.35:537][ 23]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBP_Auto5E9E1AF1E42E504F1A38BEBA10761946C.tmp' to '../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Hero/HeroBP_Auto5.uasset'
+[2017.05.18-14.50.35:546][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Hero/HeroBP_Auto5.uasset
+[2017.05.18-14.50.35:546][ 23]LogFileHelpers: Auto-saving content packages took 0.890
+[2017.05.18-14.51.31:357][666]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-14.51.51:903][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-14.51.51:939][720]LogSavePackage: Save=33.88ms
+[2017.05.18-14.51.51:939][720]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPE5EA233C4A60C80BFDD893B0CB79C5E4.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-14.51.52:052][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-14.52.12:340][938]BlueprintLog: New page: HeroBP 컴파일
