@@ -924,3 +924,404 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.05.18-09.19.54:436][312]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.19.54
 [2017.05.18-09.19.54:436][312]LogWorld: Bringing up level for play took: 0.002180
 [2017.05.18-09.19.54:461][312]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.617
+[2017.05.18-09.21.41:056][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-09.21.41:076][ 99]LogSavePackage: Save=18.87ms
+[2017.05.18-09.21.41:076][ 99]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBP54E9DD0845BA7087983B6FB6AF50FB1E.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-09.21.41:078][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-09.23.34:293][107]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-09.24.05:161][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-09.24.05:333][374]LogSavePackage: Save=27.25ms
+[2017.05.18-09.24.05:333][374]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBP9BA63E364E15E553FE5359A8B992C196.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-09.24.05:334][374]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-09.24.50:310][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-09.24.51:250][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-09.24.58:475][756]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.24.58:577][756]LogTemp:Display: Added material ShaderMap 0x0000000069DDEE80 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.24.58:843][756]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000000069DDEE80
+[2017.05.18-09.25.09:616][756]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.25.09:638][756]LogTemp:Display: Added material ShaderMap 0x0000000061F4EE80 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.25.10:322][756]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000000061F4EE80
+[2017.05.18-09.25.10:356][756]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.25.21:200][822]LogTemp:Display: Finished compile of shader map 0x0000000069DDEE80
+[2017.05.18-09.25.21:201][822]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000000069DDEE80, marking material BulletMT as finished
+[2017.05.18-09.25.21:201][822]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.25.22:804][827]LogTemp:Display: Finished compile of shader map 0x0000000061F4EE80
+[2017.05.18-09.25.22:804][827]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000000061F4EE80, marking material BulletMT as finished
+[2017.05.18-09.25.22:804][827]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.25.23:275][828]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-09.25.23:275][828]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-09.25.23:275][828]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-09.26.09:845][186]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.09:847][186]LogTemp:Display: Added material ShaderMap 0x00000000D2701600 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.10:092][186]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000D2701600
+[2017.05.18-09.26.10:223][186]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.10:224][186]LogTemp:Display: Added material ShaderMap 0x000000007D48B900 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.10:586][186]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x000000007D48B900
+[2017.05.18-09.26.10:599][186]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.10:761][188]LogTemp:Display: Finished compile of shader map 0x00000000D2701600
+[2017.05.18-09.26.10:761][188]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000D2701600, marking material BulletMT as finished
+[2017.05.18-09.26.10:761][188]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.12:770][217]LogTemp:Display: Finished compile of shader map 0x000000007D48B900
+[2017.05.18-09.26.12:770][217]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x000000007D48B900, marking material BulletMT as finished
+[2017.05.18-09.26.12:770][217]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.12:807][218]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 46 instructions
+[2017.05.18-09.26.12:807][218]MaterialEditorStats: 정보 Base pass shader for self shadowed translucency: 82 instructions
+[2017.05.18-09.26.12:807][218]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.12:807][218]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2017.05.18-09.26.15:000][365]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.15:002][365]LogTemp:Display: Added material ShaderMap 0x00000000ABDFEB00 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.15:006][365]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000ABDFEB00
+[2017.05.18-09.26.15:087][365]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.15:088][365]LogTemp:Display: Added material ShaderMap 0x00000000BC81D600 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.15:146][365]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000BC81D600
+[2017.05.18-09.26.15:146][365]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.15:195][366]LogTemp:Display: Finished compile of shader map 0x00000000ABDFEB00
+[2017.05.18-09.26.15:195][366]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000ABDFEB00, marking material BulletMT as finished
+[2017.05.18-09.26.15:195][366]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.15:796][397]LogTemp:Display: Finished compile of shader map 0x00000000BC81D600
+[2017.05.18-09.26.15:796][397]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000BC81D600, marking material BulletMT as finished
+[2017.05.18-09.26.15:796][397]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.15:808][398]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.15:808][398]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.15:808][398]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.19:339][538]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.19:342][538]LogTemp:Display: Added material ShaderMap 0x000000007D4D5980 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.19:363][538]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x000000007D4D5980
+[2017.05.18-09.26.19:363][538]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.19:943][559]LogTemp:Display: Finished compile of shader map 0x000000007D4D5980
+[2017.05.18-09.26.19:943][559]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x000000007D4D5980, marking material BulletMT as finished
+[2017.05.18-09.26.19:943][559]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.19:956][560]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.19:956][560]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.19:956][560]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.23:018][694]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.23:018][694]LogTemp:Display: Added material ShaderMap 0x00000000875D0800 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.23:023][694]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000875D0800
+[2017.05.18-09.26.23:023][694]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.23:052][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-09.26.23:053][694]LogTemp:Display: Added material ShaderMap 0x0000000050F2E080 with Material 0x000000009C513A00 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.23:055][694]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000000050F2E080
+[2017.05.18-09.26.23:540][714]LogTemp:Display: Finished compile of shader map 0x0000000050F2E080
+[2017.05.18-09.26.23:540][714]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000000050F2E080, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-09.26.23:540][714]LogTemp:Display: Marking material as finished 0x000000009C513A00
+[2017.05.18-09.26.23:717][729]LogTemp:Display: Finished compile of shader map 0x00000000875D0800
+[2017.05.18-09.26.23:717][729]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000875D0800, marking material BulletMT as finished
+[2017.05.18-09.26.23:717][729]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.23:729][730]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.23:729][730]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.23:729][730]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.24:360][776]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.24:360][776]LogTemp:Display: Added material ShaderMap 0x0000000041174100 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.24:365][776]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000000041174100
+[2017.05.18-09.26.24:365][776]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.25:840][803]LogTemp:Display: Finished compile of shader map 0x0000000041174100
+[2017.05.18-09.26.25:840][803]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000000041174100, marking material BulletMT as finished
+[2017.05.18-09.26.25:840][803]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.25:873][804]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.25:873][804]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.25:873][804]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.29:102][ 51]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.29:102][ 51]LogTemp:Display: Added material ShaderMap 0x0000000065774F00 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.29:107][ 51]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000000065774F00
+[2017.05.18-09.26.29:107][ 51]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.29:733][ 90]LogTemp:Display: Finished compile of shader map 0x0000000065774F00
+[2017.05.18-09.26.29:733][ 90]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000000065774F00, marking material BulletMT as finished
+[2017.05.18-09.26.29:733][ 90]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.29:745][ 91]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.29:745][ 91]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.29:745][ 91]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.31:413][209]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.31:415][209]LogTemp:Display: Added material ShaderMap 0x0000000041174F00 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.31:425][209]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000000041174F00
+[2017.05.18-09.26.31:425][209]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.32:064][247]LogTemp:Display: Finished compile of shader map 0x0000000041174F00
+[2017.05.18-09.26.32:064][247]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000000041174F00, marking material BulletMT as finished
+[2017.05.18-09.26.32:064][247]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.32:076][248]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.32:076][248]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.32:076][248]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.44:249][949]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.44:249][949]LogTemp:Display: Added material ShaderMap 0x00000000BC81E080 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.44:254][949]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000BC81E080
+[2017.05.18-09.26.44:254][949]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.44:321][949]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-09.26.44:322][949]LogTemp:Display: Added material ShaderMap 0x00000000ABDFC800 with Material 0x000000009463FA00 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.44:325][949]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x00000000ABDFC800
+[2017.05.18-09.26.44:783][967]LogTemp:Display: Finished compile of shader map 0x00000000ABDFC800
+[2017.05.18-09.26.44:783][967]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x00000000ABDFC800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-09.26.44:783][967]LogTemp:Display: Marking material as finished 0x000000009463FA00
+[2017.05.18-09.26.44:904][977]LogTemp:Display: Finished compile of shader map 0x00000000BC81E080
+[2017.05.18-09.26.44:904][977]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000BC81E080, marking material BulletMT as finished
+[2017.05.18-09.26.44:904][977]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.44:916][978]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.44:916][978]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.44:916][978]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.46:377][ 88]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.46:377][ 88]LogTemp:Display: Added material ShaderMap 0x00000000ABDFE780 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.46:382][ 88]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000ABDFE780
+[2017.05.18-09.26.46:382][ 88]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.46:455][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-09.26.46:456][ 88]LogTemp:Display: Added material ShaderMap 0x0000000087E18B80 with Material 0x000000009463FA00 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.46:459][ 88]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000000087E18B80
+[2017.05.18-09.26.46:901][107]LogTemp:Display: Finished compile of shader map 0x0000000087E18B80
+[2017.05.18-09.26.46:901][107]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000000087E18B80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-09.26.46:901][107]LogTemp:Display: Marking material as finished 0x000000009463FA00
+[2017.05.18-09.26.47:032][118]LogTemp:Display: Finished compile of shader map 0x00000000ABDFE780
+[2017.05.18-09.26.47:032][118]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000ABDFE780, marking material BulletMT as finished
+[2017.05.18-09.26.47:032][118]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.47:044][119]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.47:044][119]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.47:044][119]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.47:895][182]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.47:896][182]LogTemp:Display: Added material ShaderMap 0x0000000087E1BC80 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.47:900][182]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x0000000087E1BC80
+[2017.05.18-09.26.47:900][182]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.48:498][215]LogTemp:Display: Finished compile of shader map 0x0000000087E1BC80
+[2017.05.18-09.26.48:498][215]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x0000000087E1BC80, marking material BulletMT as finished
+[2017.05.18-09.26.48:498][215]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.48:510][216]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.48:510][216]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.48:510][216]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.49:313][276]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.49:314][276]LogTemp:Display: Added material ShaderMap 0x000000001E40BC80 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.49:319][276]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x000000001E40BC80
+[2017.05.18-09.26.49:319][276]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.26.49:929][312]LogTemp:Display: Finished compile of shader map 0x000000001E40BC80
+[2017.05.18-09.26.49:929][312]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x000000001E40BC80, marking material BulletMT as finished
+[2017.05.18-09.26.49:929][312]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.26.49:941][313]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-09.26.49:941][313]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-09.26.49:941][313]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-09.26.52:271][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletMT" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletMT.uasset" SILENT=true
+[2017.05.18-09.26.52:342][481]LogSavePackage: Save=70.29ms
+[2017.05.18-09.26.52:342][481]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletMTC0F599274DD0ABAF3E02B1840AB2B4C5.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletMT.uasset'
+[2017.05.18-09.26.52:343][481]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletMT.uasset
+[2017.05.18-09.26.59:580][535]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.26.59:581][535]LogTemp:Display: Added material ShaderMap 0x00000000D7097C80 with Material 0x0000000023D4F880 to ShaderMapsBeingCompiled
+[2017.05.18-09.26.59:594][535]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000D7097C80
+[2017.05.18-09.26.59:594][535]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.27.00:250][535]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.27.00:278][535]LogTemp:Display: Added material ShaderMap 0x00000000C9ACB200 with Material 0x000000004CF57280 to ShaderMapsBeingCompiled
+[2017.05.18-09.27.00:334][535]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x00000000C9ACB200
+[2017.05.18-09.27.00:340][535]LogMaterial: Missing cached shader map for material BulletMT, compiling. 
+[2017.05.18-09.27.00:343][535]LogTemp:Display: Added material ShaderMap 0x000000005DB3D980 with Material 0x000000004CF57280 to ShaderMapsBeingCompiled
+[2017.05.18-09.27.00:493][535]LogTemp:Display: Kicking off shader compilation for BulletMT, GameThreadShaderMap 0x000000005DB3D980
+[2017.05.18-09.27.00:588][535]LogMaterial: 0.09 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-09.27.00:770][535]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BulletMT, compiling. 
+[2017.05.18-09.27.00:771][535]LogTemp:Display: Added material ShaderMap 0x00000000575CA400 with Material 0x000000009463EE00 to ShaderMapsBeingCompiled
+[2017.05.18-09.27.01:192][535]LogTemp:Display: Finished compile of shader map 0x00000000575CA400
+[2017.05.18-09.27.01:192][535]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BulletMT complete, GameThreadShaderMap 0x00000000575CA400, marking material FDebugViewModeMaterialProxy BulletMT as finished
+[2017.05.18-09.27.01:192][535]LogTemp:Display: Marking material as finished 0x000000009463EE00
+[2017.05.18-09.27.01:284][535]TextureStreamingBuild:Display: Compiling optional shaders took 0.588 seconds.
+[2017.05.18-09.27.02:277][535]LogTemp:Display: Finished compile of shader map 0x00000000C9ACB200
+[2017.05.18-09.27.02:277][535]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000C9ACB200, marking material BulletMT as finished
+[2017.05.18-09.27.02:277][535]LogTemp:Display: Marking material as finished 0x000000004CF57280
+[2017.05.18-09.27.02:279][535]LogTemp:Display: Finished compile of shader map 0x00000000D7097C80
+[2017.05.18-09.27.02:279][535]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x00000000D7097C80, marking material BulletMT as finished
+[2017.05.18-09.27.02:279][535]LogTemp:Display: Marking material as finished 0x0000000023D4F880
+[2017.05.18-09.27.02:288][535]LogTemp:Display: Finished compile of shader map 0x000000005DB3D980
+[2017.05.18-09.27.02:288][535]LogTemp:Display: Shader map BulletMT complete, GameThreadShaderMap 0x000000005DB3D980, marking material BulletMT as finished
+[2017.05.18-09.27.02:288][535]LogTemp:Display: Marking material as finished 0x000000004CF57280
+[2017.05.18-09.27.19:123][918]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-09.27.20:672][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-09.27.20:688][962]LogSavePackage: Save=14.19ms
+[2017.05.18-09.27.20:688][962]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBPFB9025364D9F64E8EB2386A002B4B041.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-09.27.20:750][962]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-09.27.20:797][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletMT" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletMT.uasset" SILENT=true
+[2017.05.18-09.27.20:823][962]LogSavePackage: Save=15.23ms
+[2017.05.18-09.27.20:823][962]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletMT4037EB6141B94D9AA01C0393BCF81740.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletMT.uasset'
+[2017.05.18-09.27.20:853][962]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletMT.uasset
+[2017.05.18-09.28.08:338][252]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-09.28.17:612][685]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-09.29.51:990][293]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-09.29.52:910][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-09.29.53:014][317]LogSavePackage: Save=67.40ms
+[2017.05.18-09.29.53:014][317]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/GunBP7DDF201F4BBDB40D9D5D32BF95930EAC.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset'
+[2017.05.18-09.29.53:015][317]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset
+[2017.05.18-09.29.54:043][425]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.29.54:057][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.29.54:057][425]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:29:54)
+[2017.05.18-09.29.54:081][425]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.29.54:147][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066527s)
+[2017.05.18-09.29.54:149][425]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.29.54:150][425]LogPlayLevel: PIE: World Init took: (0.002208s)
+[2017.05.18-09.29.54:150][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.069276s)
+[2017.05.18-09.29.54:234][425]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.29.54:283][425]LogInit: FAudioDevice initialized.
+[2017.05.18-09.29.54:315][425]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.29.54:317][425]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.29.54
+[2017.05.18-09.29.54:317][425]LogWorld: Bringing up level for play took: 0.001115
+[2017.05.18-09.29.54:333][425]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.482
+[2017.05.18-09.30.14:914][459]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.30.14:927][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.30.14:928][459]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:30:14)
+[2017.05.18-09.30.14:976][459]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.30.14:985][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009601s)
+[2017.05.18-09.30.14:986][459]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.30.14:986][459]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.05.18-09.30.14:986][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.010358s)
+[2017.05.18-09.30.15:003][459]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.30.15:014][459]LogInit: FAudioDevice initialized.
+[2017.05.18-09.30.15:062][459]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.30.15:064][459]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.30.15
+[2017.05.18-09.30.15:066][459]LogWorld: Bringing up level for play took: 0.002925
+[2017.05.18-09.30.15:068][459]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.783
+[2017.05.18-09.30.48:183][758]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-09.30.49:260][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-09.30.49:276][831]LogSavePackage: Save=13.57ms
+[2017.05.18-09.30.49:276][831]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBP8C1780B04002E49B2E9EBFBB8AC337E4.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-09.30.49:276][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-09.30.50:725][969]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.30.50:738][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.30.50:738][969]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:30:50)
+[2017.05.18-09.30.50:748][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.30.50:750][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002222s)
+[2017.05.18-09.30.50:766][969]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.30.50:766][969]LogPlayLevel: PIE: World Init took: (0.015552s)
+[2017.05.18-09.30.50:766][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.017982s)
+[2017.05.18-09.30.50:784][969]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.30.50:788][969]LogInit: FAudioDevice initialized.
+[2017.05.18-09.30.50:813][969]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.30.50:815][969]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.30.50
+[2017.05.18-09.30.50:815][969]LogWorld: Bringing up level for play took: 0.000634
+[2017.05.18-09.30.50:817][969]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.965
+[2017.05.18-09.31.50:094][271]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-09.31.51:197][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-09.31.51:216][342]LogSavePackage: Save=17.73ms
+[2017.05.18-09.31.51:216][342]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/GunBP285F75644896FC565A775399021F27A5.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset'
+[2017.05.18-09.31.51:217][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset
+[2017.05.18-09.31.52:827][495]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.31.52:840][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.31.52:840][495]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:31:52)
+[2017.05.18-09.31.52:892][495]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.31.52:895][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002637s)
+[2017.05.18-09.31.52:896][495]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.31.52:896][495]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.05.18-09.31.52:896][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003715s)
+[2017.05.18-09.31.52:912][495]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.31.52:939][495]LogInit: FAudioDevice initialized.
+[2017.05.18-09.31.52:978][495]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.31.52:983][495]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.31.52
+[2017.05.18-09.31.52:983][495]LogWorld: Bringing up level for play took: 0.002378
+[2017.05.18-09.31.52:991][495]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 1.138
+[2017.05.18-09.32.05:886][991]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-09.32.11:371][ 27]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Home
+
+[2017.05.18-09.32.11:371][ 27]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-09.32.11:371][ 27]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-09.32.11:371][ 27]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-09.32.11:438][ 30]LogTemp:Display: BranchPath = YANG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = YANG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-09.32.13:936][155]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\yang\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-09.32.13:936][155]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-09.32.13:964][155]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-09.32.13:964][155]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2017.05.18-09.32.13:964][155]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-09.32.13:964][155]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-09.32.13:964][155]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-09.32.23:919][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.32.24:419][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.32.24:925][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.32.25:493][897]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.32.33:171][ 29]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.32.35:119][ 31]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.32.35:621][ 32]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.33.33:989][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-09.33.34:135][481]LogSavePackage: Save=75.22ms
+[2017.05.18-09.33.34:135][481]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPF1D274B94A17650F707AAA960F1BAB93.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-09.33.34:150][481]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-09.34.56:838][500]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-09.35.01:145][796]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.35.01:183][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.35.01:183][796]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:35:01)
+[2017.05.18-09.35.01:225][796]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.35.01:316][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090879s)
+[2017.05.18-09.35.01:317][796]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.35.01:318][796]LogPlayLevel: PIE: World Init took: (0.002317s)
+[2017.05.18-09.35.01:319][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.093829s)
+[2017.05.18-09.35.01:413][796]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.35.01:430][796]LogInit: FAudioDevice initialized.
+[2017.05.18-09.35.01:487][796]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.35.01:492][796]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.35.01
+[2017.05.18-09.35.01:492][796]LogWorld: Bringing up level for play took: 0.002289
+[2017.05.18-09.35.01:511][796]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.344
+[2017.05.18-09.35.45:994][ 78]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level' took 0.016
+[2017.05.18-09.35.45:995][ 78]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hero/HeroBP] ([1] browsable assets)...
+[2017.05.18-09.35.46:032][ 78]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Hero/HeroBP.HeroBP]
+[2017.05.18-09.35.46:032][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hero/HeroBP]
+[2017.05.18-09.35.46:032][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Hero/HeroBP_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.18-09.35.46:118][ 78]LogSavePackage: Save=76.94ms
+[2017.05.18-09.35.46:118][ 78]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBP_Auto3B2BBCEF2463FE711A6A523BEDC192349.tmp' to '../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Hero/HeroBP_Auto3.uasset'
+[2017.05.18-09.35.46:138][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Saved/Autosaves/Game/Hero/HeroBP_Auto3.uasset
+[2017.05.18-09.35.46:138][ 78]LogFileHelpers: Auto-saving content packages took 0.143
+[2017.05.18-09.36.08:763][511]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-09.36.57:066][671]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.36.57:568][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.36.58:609][673]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.37.16:563][586]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-09.37.22:099][ 84]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.37.22:114][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.37.22:114][ 84]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:37:22)
+[2017.05.18-09.37.22:163][ 84]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.37.22:166][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002586s)
+[2017.05.18-09.37.22:167][ 84]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.37.22:167][ 84]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.05.18-09.37.22:167][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.003565s)
+[2017.05.18-09.37.22:186][ 84]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.37.22:190][ 84]LogInit: FAudioDevice initialized.
+[2017.05.18-09.37.22:219][ 84]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.37.22:221][ 84]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.37.22
+[2017.05.18-09.37.22:221][ 84]LogWorld: Bringing up level for play took: 0.000640
+[2017.05.18-09.37.22:232][ 84]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 0.375
+[2017.05.18-09.37.58:826][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-09.37.58:887][487]LogSavePackage: Save=59.72ms
+[2017.05.18-09.37.58:887][487]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/HeroBPC650F7CE41F39B77C09F28ADF5228CE4.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset'
+[2017.05.18-09.37.58:888][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Hero/HeroBP.uasset
+[2017.05.18-09.37.58:927][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-09.37.59:028][487]LogSavePackage: Save=59.76ms
+[2017.05.18-09.37.59:028][487]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/GunBP090F628A4C553AA4F53DAEB41529D4A8.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset'
+[2017.05.18-09.37.59:028][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/GunBP.uasset
+[2017.05.18-09.37.59:088][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-09.37.59:173][487]LogSavePackage: Save=82.50ms
+[2017.05.18-09.37.59:173][487]LogSavePackage: Moving '../../../../../../Users/yang/HomeExam/Home/Saved/BulletBP77C6551A45F824057FD634B450B2D3D5.tmp' to '../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset'
+[2017.05.18-09.37.59:175][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yang/HomeExam/Home/Content/Gun/BulletBP.uasset
+[2017.05.18-09.40.08:154][956]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.18-09.40.40:788][336]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.40.40:804][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.40.40:804][336]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:40:40)
+[2017.05.18-09.40.40:816][336]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.40.41:008][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.191787s)
+[2017.05.18-09.40.41:010][336]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.40.41:011][336]LogPlayLevel: PIE: World Init took: (0.002351s)
+[2017.05.18-09.40.41:011][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.194742s)
+[2017.05.18-09.40.41:105][336]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.40.41:132][336]LogInit: FAudioDevice initialized.
+[2017.05.18-09.40.41:167][336]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.40.41:169][336]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.40.41
+[2017.05.18-09.40.41:170][336]LogWorld: Bringing up level for play took: 0.001248
+[2017.05.18-09.40.41:184][336]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: 1.324
+[2017.05.18-09.41.09:821][750]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-09.41.11:420][863]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-09.41.11:436][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-09.41.11:436][863]PIE: New page: PIE 세션: level (2017. 5. 19. 오전 3:41:11)
+[2017.05.18-09.41.11:460][863]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_level
+[2017.05.18-09.41.11:462][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2017.05.18-09.41.11:462][863]LogAIModule: Creating AISystem for world level
+[2017.05.18-09.41.11:462][863]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2017.05.18-09.41.11:462][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level.level to /Game/UEDPIE_0_level.level (0.002954s)
+[2017.05.18-09.41.11:504][863]LogInit: XAudio2 using 'T24D390-C(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-09.41.11:524][863]LogInit: FAudioDevice initialized.
+[2017.05.18-09.41.11:559][863]LogLoad: Game class is 'ShooterMode_C'
+[2017.05.18-09.41.11:563][863]LogWorld: Bringing World /Game/UEDPIE_0_level.level up for play (max tick rate 0) at 2017.05.18-18.41.11
+[2017.05.18-09.41.11:564][863]LogWorld: Bringing up level for play took: 0.002198
+[2017.05.18-09.41.11:570][863]PIE: 정보 /Game/UEDPIE_0_level 에 대한 에디터에서 플레이 시작 시간: -0.29
