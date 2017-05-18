@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-561CDE744EDFB8826F08709A780932E9_0000</CrashGUID>
+		<ProcessId>5064</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>1269</SecondsSinceStart>
+		<GameName>UE4-Home</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.1-3348071+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;C:\Users\yang\HomeExam\Home\Home.uproject&quot;</CommandLine>
+		<LanguageLCID>1042</LanguageLCID>
+		<AppDefaultLocale>ko_KR</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3348071</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>yang</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>2790C7F34E66494C52ED3A848F99B430</MachineId>
+		<LoginId>2790c7f34e66494c52ed3a848f99b430</LoginId>
+		<EpicAccountId>c705c569ac1a418f9fb90f40313bbb84</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint>Layout=&quot;Document : 1&quot; Label=&quot;이벤트그래프&quot; Content=SGraphEditor</UserActivityHint>
+		<ErrorMessage>Ensure condition failed: EventSignature [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\EdGraphSchema_K2.cpp] [Line: 5773] &nl;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 750</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>4226408448</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>4</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>79650816</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>8792652124160</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>2037067776</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>2072829952</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>2748612608</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>2748612608</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636307119389470000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 7 Service Pack 1 64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
